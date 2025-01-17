@@ -4,7 +4,7 @@ import { createShape } from './createShape.js'
 const model=new THREE.Group()
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
-Loader.load('../../../public/地图大屏可视化资源/world.json',(data)=>{
+Loader.load('../../../地图大屏可视化资源/world.json',(data)=>{
     // console.log(data.features);
     //往下遍历一层
     data.features.forEach((item=>{

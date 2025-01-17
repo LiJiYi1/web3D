@@ -14,7 +14,7 @@ label.position.set(13525600, 3663400,500)
 //创建火焰效果
 const geometry=new THREE.PlaneGeometry(120,120)
 geometry.rotateX(Math.PI/2)
-const texture=new THREE.TextureLoader().load('../../../public/智慧城市资源/火焰.png')
+const texture=new THREE.TextureLoader().load('../../../智慧城市资源/火焰.png')
 texture.wrapS=THREE.RepeatWrapping
 texture.wrapT=THREE.RepeatWrapping
 texture.repeat.set(1/15,1)

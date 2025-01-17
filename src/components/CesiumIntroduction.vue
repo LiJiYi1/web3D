@@ -1,13 +1,13 @@
 <template>
   <el-scrollbar height="86%" style="margin-left:2%;">
    <div> 
-    <el-card style="background-image:url('../../public/前端页面资源/bgc/bgcMain7.gif');min-width:220px;max-width: 220px;float:right;margin-right:2%;margin-top:50px;background-color:#363434;width:30%">
+    <el-card style="background-image:url('../../前端页面资源/bgc/bgcMain7.gif');min-width:220px;max-width: 220px;float:right;margin-right:2%;margin-top:50px;background-color:#363434;width:30%">
     <template #header><p>Cesium.JS介绍</p></template>
     <img
-      src="../../public/前端页面资源/CesiumIcon2.png"
+      src="../../前端页面资源/CesiumIcon2.png"
       style="width: 100%;opacity:0.6"
     />
-  <el-card style="background-image:url('../../public/前端页面资源/bgc/bgcMain4.gif');max-width: 300px;background-color:#363434;">
+  <el-card style="background-image:url('../../前端页面资源/bgc/bgcMain4.gif');max-width: 300px;background-color:#363434;">
     <p><a style="color:yellow;" href="http://cesium.xin/cesium/cn/Documentation1.95/index.html" target="_blank">Cesium.JS手册</a></p>
   </el-card>
   </el-card>
@@ -275,7 +275,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../public/webGL资源/科比.jpg'
+img.src='../../../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

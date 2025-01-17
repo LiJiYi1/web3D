@@ -27,7 +27,7 @@ const primitive=new Cesium.Primitive({
   geometryInstances : rectangleInstance,
   appearance : new Cesium.EllipsoidSurfaceAppearance({
     material:Cesium.Material.fromType('Image',{
-        image:'../../../public/CesiumBasicSource/科比(1).jpg',
+        image:'../../../CesiumBasicSource/科比(1).jpg',
     })
   })
 })
@@ -35,7 +35,7 @@ const material=new Cesium.Material({
   fabric: {
     type: 'customTrangle',
     uniforms: {
-     image:'../../../public/CesiumBasicSource/科比(1).jpg'
+     image:'../../../CesiumBasicSource/科比(1).jpg'
     },
     source:`
     bool isSame(vec3 A, vec3 B,vec3 C,vec3 P){
@@ -78,7 +78,7 @@ function all(){
         fabric:{
         type:'Image',
         uniforms:{
-            image:'../../../public/CesiumBasicSource/科比(1).jpg'
+            image:'../../../CesiumBasicSource/科比(1).jpg'
         }
         }
 

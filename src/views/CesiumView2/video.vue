@@ -2,7 +2,7 @@
   <div id="main">
     <div id="cesiumContainer"></div>
     <video ref="vide" autoplay loop crossorigin controls>
-        <source src="../../../public/CesiumBasicSource/vedio.mp4" type="video/mp4">
+        <source src="../../../CesiumBasicSource/vedio.mp4" type="video/mp4">
     </video>
   </div>
 </template>

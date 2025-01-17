@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 const  Loader=new THREE.TextureLoader()
-const  map=Loader.load('../../../public/地图大屏可视化资源/光圈贴图.png')
+const  map=Loader.load('../../../地图大屏可视化资源/光圈贴图.png')
 const geometry = new THREE.PlaneGeometry(2, 2)
 function createCircle(x,y){
 const size=Math.random()*(3-1)+1

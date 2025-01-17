@@ -6,7 +6,7 @@ import { Octree } from 'three/addons/math/Octree.js'
 import { OctreeHelper } from 'three/addons/helpers/OctreeHelper.js'
 const Loader=new GLTFLoader()
 const model=new THREE.Group()
-Loader.load('../../../public/几何计算资源/地形.glb',(gltf)=>{
+Loader.load('../../../几何计算资源/地形.glb',(gltf)=>{
 model.add(gltf.scene)
     //实例化八叉树
     const tree = new Octree()

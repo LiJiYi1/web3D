@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 const geometry=new THREE.SphereGeometry(5000,32,16)
-const texture=new THREE.TextureLoader().load('../../../public/智慧城市资源/星空贴图(1).jpg')
+const texture=new THREE.TextureLoader().load('../../../智慧城市资源/星空贴图(1).jpg')
 texture.wrapS=THREE.RepeatWrapping
 texture.wrapT=THREE.RepeatWrapping
 texture.repeat.set(3,1)

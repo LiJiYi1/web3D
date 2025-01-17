@@ -1,14 +1,14 @@
 <template>
   <el-scrollbar height="86%">
   <div>
-  <el-card style="margin-right:2%;background-image:url('../../public/前端页面资源/bgc/bgcMain12.gif');min-width:220px;max-width: 220px;float:right;background-color:#363434;width:30%">
+  <el-card style="margin-right:2%;background-image:url('../../前端页面资源/bgc/bgcMain12.gif');min-width:220px;max-width: 220px;float:right;background-color:#363434;width:30%">
     <template #header><p>学习感受</p></template>
     <img
-      src="../../public/前端页面资源/image1.jpg"
+      src="../../前端页面资源/image1.jpg"
       style="width: 100%;opacity:0.8"
     />
 
-  <el-card style="background-image:url('../../public/前端页面资源/bgc/bgcMain4.gif');max-width: 480px;background-color:#363434">
+  <el-card style="background-image:url('../../前端页面资源/bgc/bgcMain4.gif');max-width: 480px;background-color:#363434">
     <p style="font-size: 16px;color:yellow">道阻且长,行则将至。</p>
   </el-card>
 
@@ -220,7 +220,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../public/webGL资源/科比.jpg'
+img.src='../../../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

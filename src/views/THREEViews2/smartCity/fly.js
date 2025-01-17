@@ -2,7 +2,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import * as THREE from 'three'
 const loader=new GLTFLoader()
 //加载飞机并放入场景
-const gltf=await loader.loadAsync('../../../public/智慧城市资源/fly.glb')
+const gltf=await loader.loadAsync('../../../智慧城市资源/fly.glb')
 const fly=gltf.scene
 // const axes=new THREE.AxesHelper(200)
 // fly.add(axes)
@@ -15,7 +15,7 @@ const geometry=new THREE.PlaneGeometry(50,50)
 // geometry.rotateZ(Math.PI/2)
  geometry.translate(-25,0,0)
 // geometry.rotateX(-Math.PI/3)
-const texture=new THREE.TextureLoader().load('../../../public/智慧城市资源/信号波.png')
+const texture=new THREE.TextureLoader().load('../../../智慧城市资源/信号波.png')
 const material=new THREE.MeshBasicMaterial({
     transparent:true,
     color:0x00ffff,

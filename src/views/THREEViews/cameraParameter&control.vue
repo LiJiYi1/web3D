@@ -99,7 +99,7 @@ const curve = new THREE.CubicBezierCurve3(
 	new THREE.Vector3( 100, 40, 20)
 );
 //创建纹理贴图
-const texture=new THREE.TextureLoader().load('../../public/初级篇学习资源/diffuse.jpg')
+const texture=new THREE.TextureLoader().load('../../初级篇学习资源/diffuse.jpg')
 //纹理阵列开启
 texture.wrapS=THREE.RepeatWrapping
 //实现阵列

@@ -87,7 +87,7 @@ id:'model',
 orientation:Cesium.Quaternion.fromHeadingPitchRoll(new Cesium.HeadingPitchRoll(110,101,100.7)),
 position:Cesium.Cartesian3.fromDegrees(120,39.9,3),
 model:{
-uri:'../../../public/CesiumBasicSource/轿车.glb',
+uri:'../../../CesiumBasicSource/轿车.glb',
 scale:0.1,
 nodeTransformations:{'后备箱':new Cesium.NodeTransformationProperty({
   translation:new Cesium.Cartesian3(100,2,0)
@@ -106,7 +106,7 @@ const fixedFrameTransform = Cesium.Transforms.localFrameToFixedFrameGenerator(
 );
 let animations;
 model = await Cesium.Model.fromGltfAsync({
-   url: "../../../public/CesiumBasicSource/无人机居中.glb",
+   url: "../../../CesiumBasicSource/无人机居中.glb",
      modelMatrix: Cesium.Transforms.headingPitchRollToFixedFrame(
      position,
      headingPositionRoll,

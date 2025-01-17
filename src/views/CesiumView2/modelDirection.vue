@@ -25,7 +25,7 @@ const fixedFrameTransform = Cesium.Transforms.localFrameToFixedFrameGenerator(
 );
 let animations;
 const model = await Cesium.Model.fromGltfAsync({
-   url: "../../../public/CesiumBasicSource/fly.glb",
+   url: "../../../CesiumBasicSource/fly.glb",
      modelMatrix: Cesium.Transforms.headingPitchRollToFixedFrame(
      position,
      headingPositionRoll,

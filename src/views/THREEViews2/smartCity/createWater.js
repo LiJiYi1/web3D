@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { lon2xy} from './transform'
 const loader=new THREE.FileLoader()
 loader.setResponseType('json')
-const data= await loader.loadAsync('../../../public/智慧城市资源/上海/黄浦江.json')
+const data= await loader.loadAsync('../../../智慧城市资源/上海/黄浦江.json')
 //获得河面边界坐标
 const boarder = data.features[0].geometry.coordinates[0]
 //对边界坐标进行处理
@@ -51,12 +51,12 @@ for(let i=0;i<pos.array.length;i+=3){
 geometry.attributes.uv=new THREE.BufferAttribute(new Float32Array(uvArr),2)
 //材质用高光网格材质,水体要用法线贴图实现水体效果
 //创建贴图
-const texture=new THREE.TextureLoader().load('../../../public/智慧城市资源/水面.jpg')
+const texture=new THREE.TextureLoader().load('../../../智慧城市资源/水面.jpg')
 texture.wrapS=THREE.RepeatWrapping
 texture.wrapT=THREE.RepeatWrapping
 texture.repeat.set(20,20)
 //创建法线贴图
-const texture1 = new THREE.TextureLoader().load('../../../public/智慧城市资源/normal.jpg')
+const texture1 = new THREE.TextureLoader().load('../../../智慧城市资源/normal.jpg')
 texture1.wrapS = THREE.RepeatWrapping
 texture1.wrapT = THREE.RepeatWrapping
 texture1.repeat.set(20, 20)

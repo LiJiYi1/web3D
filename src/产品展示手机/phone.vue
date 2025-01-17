@@ -2,12 +2,12 @@
   <div id="container" ref="container">
     <div id="color">
     <!-- 四个按钮 -->
-    <div class="colorChoose" id="map1"><img src="../../public/手机产品展示资源/手机颜色纹理贴图/极光紫.png" @click="change1()"></div>
-    <div class="colorChoose" id="map2"><img src="../../public/手机产品展示资源/手机颜色纹理贴图/幻夜黑.png" @click="change2()"></div>
-    <div class="colorChoose" id="map3"><img src="../../public/手机产品展示资源/手机颜色纹理贴图/珊瑚红.png" @click="change3()"></div>
-    <div class="colorChoose" id="map4"><img src="../../public/手机产品展示资源/手机颜色纹理贴图/极光蓝.png" @click="change4()"></div>
+    <div class="colorChoose" id="map1"><img src="../../手机产品展示资源/手机颜色纹理贴图/极光紫.png" @click="change1()"></div>
+    <div class="colorChoose" id="map2"><img src="../../手机产品展示资源/手机颜色纹理贴图/幻夜黑.png" @click="change2()"></div>
+    <div class="colorChoose" id="map3"><img src="../../手机产品展示资源/手机颜色纹理贴图/珊瑚红.png" @click="change3()"></div>
+    <div class="colorChoose" id="map4"><img src="../../手机产品展示资源/手机颜色纹理贴图/极光蓝.png" @click="change4()"></div>
   </div>
-    <div id="rotate"><img id="img" src="../../public/手机产品展示资源/rotate/旋转.png" @click="rotate"></div>
+    <div id="rotate"><img id="img" src="../../手机产品展示资源/rotate/旋转.png" @click="rotate"></div>
   <div id="camera" ref="cameraB">
     <div>
       <div style="height:1px;width:130px;background: #00ffff;margin-top:68px"></div>
@@ -20,7 +20,7 @@
     <!-- 设置一个关闭按钮 -->
     <div style="position:relative;">
       <div style="position: absolute;left: -30px;top: 10px;" @click="close()">
-        <img id="close" src="../../public/手机产品展示资源/关闭.png" alt="" width="18" style="cursor: pointer;">
+        <img id="close" src="../../手机产品展示资源/关闭.png" alt="" width="18" style="cursor: pointer;">
       </div>
     </div>
   </div>
@@ -39,10 +39,10 @@ import { scene } from './手机产品展示模块/scene.js';
 import { camera } from './手机产品展示模块/camera.js';
 const loader=new THREE.TextureLoader(
 )
-const map1=loader.load('../../public/手机产品展示资源/手机颜色纹理贴图/极光紫 copy.png')
-const map2=loader.load('../../public/手机产品展示资源/手机颜色纹理贴图/幻夜黑 copy.png')
-const map3=loader.load('../../public/手机产品展示资源/手机颜色纹理贴图/珊瑚红 copy.png')
-const map4=loader.load('../../public/手机产品展示资源/手机颜色纹理贴图/极光蓝 copy.png')
+const map1=loader.load('../../手机产品展示资源/手机颜色纹理贴图/极光紫 copy.png')
+const map2=loader.load('../../手机产品展示资源/手机颜色纹理贴图/幻夜黑 copy.png')
+const map3=loader.load('../../手机产品展示资源/手机颜色纹理贴图/珊瑚红 copy.png')
+const map4=loader.load('../../手机产品展示资源/手机颜色纹理贴图/极光蓝 copy.png')
 map1.flipY=false
 map2.flipY=false
 map3.flipY=false
@@ -52,11 +52,11 @@ const cameraB=ref(null)
 function rotate(e){
 // console.log(rotates.rotates);
 if(rotates.rotates){
-  e.target.src='../../public/手机产品展示资源/rotate/旋转.png';
+  e.target.src='../../手机产品展示资源/rotate/旋转.png';
   rotates.rotates= false
 }
 else{
-  e.target.src='../../public/手机产品展示资源/rotate/停止旋转.png'
+  e.target.src='../../手机产品展示资源/rotate/停止旋转.png'
   rotates.rotates=true
 }
 }

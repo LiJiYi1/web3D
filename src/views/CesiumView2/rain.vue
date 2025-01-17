@@ -50,7 +50,7 @@ initCesium()
  //粒子系统
 viewer.scene.primitives.add(
         new Cesium.ParticleSystem({
-            image: "../../../public/CesiumBasicSource/雨滴.png",
+            image: "../../../CesiumBasicSource/雨滴.png",
             startColor: Cesium.Color.WHITE.withAlpha(1.0),
             endColor: Cesium.Color.WHITE.withAlpha(1.0),
 

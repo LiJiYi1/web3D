@@ -26,7 +26,7 @@ const fixedFrameTransform = Cesium.Transforms.localFrameToFixedFrameGenerator(
   "west"
 );
  const car = await Cesium.Model.fromGltfAsync({
-   url: "../../../public/CesiumBasicSource/ferrari.glb",
+   url: "../../../CesiumBasicSource/ferrari.glb",
    modelMatrix: Cesium.Transforms.headingPitchRollToFixedFrame(
      position,
      headingPositionRoll,

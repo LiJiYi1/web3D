@@ -6,7 +6,7 @@ const model=new THREE.Group()
 const tag=new THREE.Group()
 //实例化GLTFLoader
 const loader=new GLTFLoader()
-loader.load('../../../public/粮仓资源/model.gltf',(gltf)=>{
+loader.load('../../../粮仓资源/model.gltf',(gltf)=>{
     //解决颜色偏差
     gltf.scene.traverse((obj)=>{
     if(obj.isMesh){

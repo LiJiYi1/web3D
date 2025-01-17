@@ -59,7 +59,7 @@ const jin=gui.addFolder('金属材质')
 const rough=gui.addFolder('金属粗糙')
 //创建立方体贴图
 const cubeTexture=new THREE.CubeTextureLoader()
-	.setPath( '../../public/环境贴图/环境贴图1/' )
+	.setPath( '../../环境贴图/环境贴图1/' )
 	.load( [
 				'px.jpg',
 				'nx.jpg',
@@ -70,7 +70,7 @@ const cubeTexture=new THREE.CubeTextureLoader()
 			] );
  scene.environment=cubeTexture           
 //loader加载模型
-loader.load('../../public/初级篇学习资源/金属.glb',(gltf)=>{
+loader.load('../../初级篇学习资源/金属.glb',(gltf)=>{
  gltf.scene.traverse((obj)=>{
     if(obj.isMesh){
     //     //加载环境贴图
@@ -86,7 +86,7 @@ loader.load('../../public/初级篇学习资源/金属.glb',(gltf)=>{
 scene.add(gltf.scene)
 })
 //加载轿车模型
-loader.load('../../public/初级篇学习资源/车pbr.glb',(gltf)=>{
+loader.load('../../初级篇学习资源/车pbr.glb',(gltf)=>{
 //获得车壳子
 const carke=gltf.scene.getObjectByName('外壳01')
 carke.material = new THREE.MeshPhysicalMaterial({

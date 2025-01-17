@@ -69,14 +69,14 @@ const czml=[
       resolution: 1,
     },
     billboard: {
-      image:"../../../public/CesiumBasicSource/kebi.jpg",
+      image:"../../../CesiumBasicSource/kebi.jpg",
       scale: 0.2,
       eyeOffset: {
         cartesian: [0.0, 3.0, -10.0],
       },
     },
     // model:{
-    //   gltf: "../../../public/CesiumBasicSource/fly.glb",
+    //   gltf: "../../../CesiumBasicSource/fly.glb",
     //   //orientation: new Cesium.VelocityOrientationProperty(property),
     // },
     position: {

@@ -63,7 +63,7 @@ scene.add(axesHelper);
 const loader=new GLTFLoader()
 //创建立方体贴图
 const cubeTexture=new THREE.CubeTextureLoader()
-	.setPath( '../../public/环境贴图/环境贴图1/' )
+	.setPath( '../../环境贴图/环境贴图1/' )
 	.load( [
 				'px.jpg',
 				'nx.jpg',
@@ -74,7 +74,7 @@ const cubeTexture=new THREE.CubeTextureLoader()
 			] );
  scene.environment=cubeTexture           
 //loader加载模型
-loader.load('../../public/初级篇学习资源/车pbr.glb',(gltf)=>{
+loader.load('../../初级篇学习资源/车pbr.glb',(gltf)=>{
 scene.add(gltf.scene)
   // 加载完成，隐藏进度条
 // document.getElementById("container").style.visibility ='hidden';

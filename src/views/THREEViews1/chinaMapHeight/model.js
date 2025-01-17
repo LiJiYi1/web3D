@@ -20,10 +20,10 @@ loader.setResponseType('json')
 //创建一个对象把地名和GDP数据对上
 const obj={}
 //加载地图geojson数据
-loader.load('../../../public/地图大屏可视化资源/china详细.json',(data)=>{
+loader.load('../../../地图大屏可视化资源/china详细.json',(data)=>{
 const features = data.features
 //加载GDP的JSON数据
-loader.load('../../../public/地图大屏可视化资源/gdp.json', (data) => {
+loader.load('../../../地图大屏可视化资源/gdp.json', (data) => {
         const arr = data.arr
         //把值赋给OBJ
         arr.forEach(ele => {

@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { lon2xy } from './transform'
 const loader=new THREE.FileLoader()
 loader.setResponseType('json')
-const data=await loader.loadAsync('../../../public/智慧城市资源/路.geojson')
+const data=await loader.loadAsync('../../../智慧城市资源/路.geojson')
 const features=data.features
 const lineGroup=new THREE.Group()
 const baseLineGroup=new THREE.Group()

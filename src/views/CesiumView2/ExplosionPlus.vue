@@ -525,7 +525,7 @@ const ScanPostStage = new Cesium.PostProcessStage({
         u_time: function () {
             return ((new Date()).getTime() - _time)*0.001;
         },     
-        iChannel0: "../../../public/webGL资源/科比.jpg",
+        iChannel0: "../../../webGL资源/科比.jpg",
         // iChannel1: "ichannel0.png"
     }
 });

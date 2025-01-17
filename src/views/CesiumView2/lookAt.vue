@@ -56,7 +56,7 @@ viewer.entities.add({
 const model=new Cesium.Entity({
     id:'car',
     model:{
-    uri:'../../../public/CesiumBasicSource/无人机居中.glb',
+    uri:'../../../CesiumBasicSource/无人机居中.glb',
     scale:100
 },
 position:position,

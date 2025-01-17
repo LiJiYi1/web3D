@@ -12,7 +12,7 @@ bubbleGroup.name='气泡'
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
 //加载PM2.5的JSON数据
-Loader.load('../../../public/地图大屏可视化资源/PM2.5.json',(data)=>{
+Loader.load('../../../地图大屏可视化资源/PM2.5.json',(data)=>{
     //PM2.5的JSON数组
     const value=data.arr
     //遍历value创建PM2.5的气泡图放到正确位置
@@ -29,7 +29,7 @@ Loader.load('../../../public/地图大屏可视化资源/PM2.5.json',(data)=>{
     })
     
 })
-Loader.load('../../../public/地图大屏可视化资源/china详细.json',(data)=>{
+Loader.load('../../../地图大屏可视化资源/china详细.json',(data)=>{
     const features=data.features
     features.forEach((ele)=>{
         //通过geoJSON获得区域形状数据

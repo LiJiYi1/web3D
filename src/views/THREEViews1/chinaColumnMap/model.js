@@ -19,14 +19,14 @@ const color1=new THREE.Color(1,0,0)
 const color2=new THREE.Color(1,1,0)
 const gdpMax = 107671.07
 //加载GDP数据
-Loader.load('../../../public/地图大屏可视化资源/gdp.json',(data)=>{
+Loader.load('../../../地图大屏可视化资源/gdp.json',(data)=>{
     const gdp=data.arr
     gdp.forEach((ele)=>{
           obj[ele.name]=ele.value
     })
     // console.log(obj);
     
-    Loader.load('../../../public/地图大屏可视化资源/china详细.json', (data) => {
+    Loader.load('../../../地图大屏可视化资源/china详细.json', (data) => {
         const features = data.features
         features.forEach((ele) => {
             const name = ele.properties.name

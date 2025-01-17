@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-const texture=new THREE.TextureLoader().load('../../../public/几何计算资源/乒乓球.png')
-const texture1 = new THREE.TextureLoader().load('../../../public/几何计算资源/瓷砖.jpg')
+const texture=new THREE.TextureLoader().load('../../../几何计算资源/乒乓球.png')
+const texture1 = new THREE.TextureLoader().load('../../../几何计算资源/瓷砖.jpg')
 texture1.wrapS=THREE.RepeatWrapping
 texture1.wrapT = THREE.RepeatWrapping
 texture1.repeat.set(2,2)
@@ -17,7 +17,7 @@ planeMesh.rotateX(-Math.PI/2)
 model.add(sphereMesh)
 model.add(planeMesh)
 const loader=new GLTFLoader()
-loader.load('../../../public/几何计算资源/箱子.glb',(gltf)=>{
+loader.load('../../../几何计算资源/箱子.glb',(gltf)=>{
 //设置箱子位置和姿态
 gltf.scene.position.set(20,12,20)
 gltf.scene.rotation.set(Math.PI / 3, Math.PI / 3, Math.PI / 3)
@@ -30,7 +30,7 @@ model.add(gltf.scene)
 // console.log(size)
 })
 //加载多面体
-const gltf=await loader.loadAsync('../../../public/几何计算资源/凸多面体.glb')
+const gltf=await loader.loadAsync('../../../几何计算资源/凸多面体.glb')
 const ConvexPolyhedron = gltf.scene.getObjectByName('多面体')
 //设置多面体位置
 ConvexPolyhedron.position.set(30, 12, 20)

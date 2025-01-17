@@ -18,7 +18,7 @@ constructor() {
                     fabric: {
                         type: 'cusmaterial',
                         uniforms: {
-                            u_img: "../../../public/CesiumBasicSource/kebi.jpg",
+                            u_img: "../../../CesiumBasicSource/kebi.jpg",
                             u_time: 0.0
                         },
                         source: `
@@ -78,7 +78,7 @@ const primitive=new Cesium.Primitive({
           fabric: {
                         type: 'cusmaterial',
                         uniforms: {
-                            u_img: "../../../public/CesiumBasicSource/kebi.jpg",
+                            u_img: "../../../CesiumBasicSource/kebi.jpg",
                             u_time: 0.0
                         },
                         source: `
@@ -115,8 +115,8 @@ viewer.scene.primitives.add(primitive);
 //       type:'Water' ,
 //       uniforms: {
 //         //baseWaterColor:Cesium.Color.BISQUE,
-//         specularMap: "../../../public/CesiumBasicSource/earthspec1k.jpg",
-//         normalMap: Cesium.buildModuleUrl("../../../public/CesiumBasicSource/normalmap.png"),
+//         specularMap: "../../../CesiumBasicSource/earthspec1k.jpg",
+//         normalMap: Cesium.buildModuleUrl("../../../CesiumBasicSource/normalmap.png"),
 //         frequency: 10000.0,
 //         animationSpeed: 0.01,
 //         amplitude:5.0,

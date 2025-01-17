@@ -25,7 +25,7 @@ viewer.entities.add({
     }
 })
 //用GeoJSON创建贴地线
-viewer.dataSources.add(Cesium.GeoJsonDataSource.load('../../../public/CesiumBasicSource/line.json', {
+viewer.dataSources.add(Cesium.GeoJsonDataSource.load('../../../CesiumBasicSource/line.json', {
   stroke: Cesium.Color.YELLOW,
   fill: Cesium.Color.PINK,
   strokeWidth: 10,

@@ -9,7 +9,7 @@ const model=new THREE.Group()
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
 //加载地图边界线资源
-Loader.load('../../../public/地球大屏可视化资源/world.json',(data)=>{
+Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
     const features=data.features
     //把点的数组处理一下生成一个新的数组才能实现数组合并
     const newArr = []
@@ -53,7 +53,7 @@ Loader.load('../../../public/地球大屏可视化资源/world.json',(data)=>{
    
 })
 //加载密集点资源
-Loader.load('../../../public/地球大屏可视化资源/数据.json',(data)=>{
+Loader.load('../../../地球大屏可视化资源/数据.json',(data)=>{
     // console.log(data);
     //创建数组存储点的坐标
     const pointArr=[]
@@ -77,7 +77,7 @@ Loader.load('../../../public/地球大屏可视化资源/数据.json',(data)=>{
     
 })
 const loader=new THREE.TextureLoader()
-const map=loader.load('../../../public/地球大屏可视化资源/earth (12).png')
+const map=loader.load('../../../地球大屏可视化资源/earth (12).png')
 const sphere = new THREE.SphereGeometry(R, 32, 32)
 const material=new THREE.MeshLambertMaterial({
     transparent:true,

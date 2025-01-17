@@ -27,7 +27,7 @@ model.add(circleGroup)
 const Loader=new THREE.FileLoader()
 //设置请求数据的type不然请求的是字符串，不好处理
 Loader.setResponseType('json')
-Loader.load('../../../public/地图大屏可视化资源/china.json',(data)=>{
+Loader.load('../../../地图大屏可视化资源/china.json',(data)=>{
 //data就是我们请求到的GeoJSON数据我们下面就要对他解析，通过解析的数据来创建模型
 const features=data.features
 // console.log(features);

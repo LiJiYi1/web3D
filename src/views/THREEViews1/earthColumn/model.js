@@ -10,7 +10,7 @@ model.add(earth)
 //解析world.json数据绘制边界线
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
-Loader.load('../../../public/地球大屏可视化资源/world.json',(data)=>{
+Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
     const features=data.features
     //创建数组存储处理过的顶点坐标
     const newArr = []
@@ -71,7 +71,7 @@ model.add(line)
     
 })
 //请求人口密度数据,实现密集柱子可视化
-Loader.load('../../../public/地球大屏可视化资源/人口密度.json',(data)=>{
+Loader.load('../../../地球大屏可视化资源/人口密度.json',(data)=>{
     const population=data.population
 // console.log(population);
 // //创建数组存储人口密度

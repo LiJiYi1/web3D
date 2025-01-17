@@ -91,7 +91,7 @@ viewer.scene.primitives.add(new Cesium.Primitive({
             fabric: {
                 type: "Image",
                 uniforms: {
-                    image: "../../../public/CesiumBasicSource/Flag.png",
+                    image: "../../../CesiumBasicSource/Flag.png",
                 },
             },
         }),

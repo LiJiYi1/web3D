@@ -15,7 +15,7 @@ const position = Cesium.Cartesian3.fromDegrees(
     -123.0744619,
     44.0503706
 );
-const url = "../../../public/CesiumBasicSource/fly.glb";
+const url = "../../../CesiumBasicSource/fly.glb";
 const entity = viewer.entities.add({
     name: url,
     position: position,
@@ -33,7 +33,7 @@ const outlineOnly = viewer.entities.add({
     ),
     ellipsoid: {
         radii: new Cesium.Cartesian3(1.0, 1.0, 2.0),
-        material: "../../../public/webGL资源/科比.jpg",
+        material: "../../../webGL资源/科比.jpg",
     },
 });
 

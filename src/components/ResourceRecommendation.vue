@@ -14,7 +14,7 @@
     <!-- 小飞侠 -->
     <div onclick="window.open('https://space.bilibili.com/597185371?spm_id_from=333.337.search-card.all.click')">
         <el-avatar
-        src="../../public/前端页面资源/recommendation/xiaofeixia.jpg"
+        src="../../前端页面资源/recommendation/xiaofeixia.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">小飞侠GIS人</div>
@@ -22,7 +22,7 @@
    <!-- 冰哥 -->
     <div onclick="window.open('https://space.bilibili.com/410503457?spm_id_from=333.337.0.0')">
         <el-avatar
-        src="../../public/前端页面资源/recommendation/bingge.jpg"
+        src="../../前端页面资源/recommendation/bingge.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">冰哥图形学工作站</div>
@@ -30,7 +30,7 @@
   <!-- 李伟 -->
    <div onclick="window.open('https://space.bilibili.com/1028978784?spm_id_from=333.337.search-card.all.click')">
         <el-avatar
-        src="../../public/前端页面资源/recommendation/liwei.jpg"
+        src="../../前端页面资源/recommendation/liwei.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">李伟_Li慢慢</div>
@@ -38,7 +38,7 @@
 <!-- 野生猿 -->
      <div onclick="window.open('https://space.bilibili.com/1380937594')">
   <el-avatar
-        src="../../public/前端页面资源/recommendation/yeshengyuan.jpg"
+        src="../../前端页面资源/recommendation/yeshengyuan.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">社恐野生猿</div>
@@ -46,7 +46,7 @@
 <!-- 郭老师 -->
     <div onclick="window.open('https://space.bilibili.com/47762042')">
   <el-avatar
-        src="../../public/前端页面资源/recommendation/guolongbang.png"
+        src="../../前端页面资源/recommendation/guolongbang.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">郭隆邦</div>
@@ -67,14 +67,14 @@
   
     <div onclick="window.open('https://study.163.com/course/introduction/1212760820.htm?inLoc=ss_ssjg_tjlb_three')">
         <el-avatar
-        src="../../public/前端页面资源/wangYilesson/wangYi.jpg"
+        src="../../前端页面资源/wangYilesson/wangYi.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer;width:110px">Three.js可视化系统课程WebGL</div>
     </div>
     <div onclick="window.open('https://study.163.com/course/introduction.htm?courseId=1213599804#/courseDetail?tab=1')">
             <el-avatar
-        src="../../public/前端页面资源/wangYilesson/wangyiGL.png"
+        src="../../前端页面资源/wangYilesson/wangyiGL.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer;width:110px">WebGL_Shader中级系列精讲</div>
@@ -94,7 +94,7 @@
     <div>
       <div onclick="window.open('https://icegl.cn/')">
         <el-avatar
-        src="../../public/前端页面资源/blog/ice.png"
+        src="../../前端页面资源/blog/ice.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">ICE-图形学社区</div>
@@ -103,7 +103,7 @@
       <div>
       <div onclick="window.open('http://cesium.xin/wordpress/archives/all-article.html')">
         <el-avatar
-        src="../../public/前端页面资源/blog/cesium.png"
+        src="../../前端页面资源/blog/cesium.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">Cesium中文网</div>
@@ -124,7 +124,7 @@
      
       <div onclick="window.open('https://www.shadertoy.com/')">
         <el-avatar
-        src="../../public/前端页面资源/shaderWebGL/shadertoy.jpg"
+        src="../../前端页面资源/shaderWebGL/shadertoy.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">shadertoy</div>
@@ -132,7 +132,7 @@
     
     <div onclick="window.open('https://webglsamples.org/')">
         <el-avatar
-        src="../../public/前端页面资源/shaderWebGL/webglsamples.jpg"
+        src="../../前端页面资源/shaderWebGL/webglsamples.jpg"
         :size='100' id="el-avatar"
       />
     <div style="text-align: center;color:white;cursor:pointer">webglsamples</div>
@@ -145,7 +145,7 @@
         <div>  <div  onclick="window.open('https://www.thingjs.com/guide/')">
       <div>
         <el-avatar
-        src="../../public/前端页面资源/shaderWebGL/thing.png"
+        src="../../前端页面资源/shaderWebGL/thing.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">thingJS</div>
@@ -155,7 +155,7 @@
      <div  onclick="window.open('https://www.hightopo.com/demos/index.html')">
       <div>
         <el-avatar
-        src="../../public/前端页面资源/shaderWebGL/tupu.png"
+        src="../../前端页面资源/shaderWebGL/tupu.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">图扑</div>
@@ -175,7 +175,7 @@
     <div onclick="window.open('http://data.cma.cn:8049/')">
       <div>
         <el-avatar
-        src="../../public/前端页面资源/shaderWebGL/weather.jpg"
+        src="../../前端页面资源/shaderWebGL/weather.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">气象效果</div>
@@ -196,14 +196,14 @@
     <div>
       <div onclick="window.open('http://mars3d.cn/')">
         <el-avatar
-        src="../../public/前端页面资源/function/logo.png"
+        src="../../前端页面资源/function/logo.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">火星科技</div>
     </div>
       <div onclick="window.open('http://support.supermap.com.cn:8090/webgl/examples/webgl/examples.html#layer')">
         <el-avatar
-        src="../../public/前端页面资源/function/superMap.png"
+        src="../../前端页面资源/function/superMap.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">超图</div>
@@ -211,7 +211,7 @@
 
   <div onclick="window.open('https://github.com/RaymanNg/3D-Wind-Field')">
         <el-avatar
-        src="../../public/前端页面资源/image4.jpg"
+        src="../../前端页面资源/image4.jpg"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">Rayman风场</div>
@@ -230,40 +230,40 @@
     <div>
       <!-- THREE -->
     <div onclick="window.open('https://www.ituring.com.cn/book/1272')">
-        <el-image style="width: 180px; height: 240px" src="../../public/前端页面资源/book/THREE.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px" src="../../前端页面资源/book/THREE.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">THREE.JS入门指南</div>
       </div>
       <!-- WEBGL入门 -->
    <div onclick="window.open('https://item.jd.com/10106885844290.html')">
-        <el-image style="width: 180px; height: 240px" src="../../public/前端页面资源/book/webGL1.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px" src="../../前端页面资源/book/webGL1.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">WebGL入门指南</div>
       </div>
       <!-- WEBGL编程指南 -->
       <div onclick="window.open('https://item.jd.com/10119076524664.html')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/webGL2.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/webGL2.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">WebGL编程指南</div>
       </div>
        <!-- 虚拟地球 -->
         <div onclick="window.open('https://virtualglobebook.com/')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/virtualglobebook.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/virtualglobebook.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">Virtual Globe Book</div>
       </div>
       <!-- webGL高级 -->
         <div onclick="window.open('https://item.jd.com/10124614817703.html')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/webGL3.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/webGL3.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">WebGL高级编程</div>
       </div>
         <div onclick="window.open('https://item.jd.com/10096805093231.html')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/tuxing.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/tuxing.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">交互式计算机图形学</div>
       </div>
       
       <div onclick="window.open('https://item.jd.com/10053371614980.html')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/HTML.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/HTML.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">HTML5与WebGL编程</div>
       </div>
       <div onclick="window.open('https://item.jd.com/10124510977740.html')">
-        <el-image style="width: 180px; height: 240px;" src="../../public/前端页面资源/book/openGL.jpg" class="el-image1"/>
+        <el-image style="width: 180px; height: 240px;" src="../../前端页面资源/book/openGL.jpg" class="el-image1"/>
         <div style="color: white;cursor:pointer">OpenGL着色语言</div>
       </div>
 
@@ -281,14 +281,14 @@
     <div >
       <div onclick="window.open('https://www.runoob.com/')">
         <el-avatar
-        src="../../public/前端页面资源/base/js.png"
+        src="../../前端页面资源/base/js.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">菜鸟教程</div>
     </div>
      <div onclick="window.open('https://www.w3school.com.cn/js/index.asp')">
         <el-avatar
-        src="../../public/前端页面资源/base/js.png"
+        src="../../前端页面资源/base/js.png"
         :size='100' id="el-avatar"
       />
       <div style="text-align: center;color:white;cursor:pointer">W3CScholl</div>
@@ -742,7 +742,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../public/webGL资源/科比.jpg'
+img.src='../../../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

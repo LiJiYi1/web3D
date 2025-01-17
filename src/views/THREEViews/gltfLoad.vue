@@ -52,7 +52,7 @@ scene.add(ambient);
 //创建gltf加载控件
 const loader=new GLTFLoader()
 //loader加载模型
-loader.load('../../public/初级篇学习资源/工厂.gltf',(gltf)=>{
+loader.load('../../初级篇学习资源/工厂.gltf',(gltf)=>{
     console.log(gltf.scene);
   gltf.scene.traverse((obj)=>{
       // 查看gltf所有颜色贴图的.encoding值
@@ -65,10 +65,10 @@ scene.add(gltf.scene)
 //创建gltf加载控件
 const loader1=new GLTFLoader()
 //loader加载模型
-loader1.load('../../public/初级篇学习资源/手机模型.glb',(gltf)=>{
+loader1.load('../../初级篇学习资源/手机模型.glb',(gltf)=>{
 gltf.scene.position.set(0,100,0)
 //换纹理
-const texture=new THREE.TextureLoader().load('../../public/初级篇学习资源/黑色.png')
+const texture=new THREE.TextureLoader().load('../../初级篇学习资源/黑色.png')
 texture.flipY=false
  gltf.scene.children[0].material.map=texture
 scene.add(gltf.scene)

@@ -44,13 +44,13 @@ label:{
     pixelOffset:new Cesium.Cartesian2(200,200)
 },
 billboard:{
-    image:'../../../public/前端页面资源/image5.png',
+    image:'../../../前端页面资源/image5.png',
     scale:0.6,
     pixelOffset:new Cesium.Cartesian2(-180,-180),
     scaleByDistance:new Cesium.NearFarScalar(1, 10,200000, 0)
 },
 model:{
-    uri:'../../../public/CesiumBasicSource/fly.glb',
+    uri:'../../../CesiumBasicSource/fly.glb',
     scale:100.0,
     minimumPixelSize:300,
     color: Cesium.Color.BLUE,

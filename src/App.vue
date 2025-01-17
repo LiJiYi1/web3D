@@ -15,7 +15,7 @@
     :default-active=$route.path
     active-text-color="#5D00FF"
     @select="handleSelect"
-    style="background-image:url('../../public/前端页面资源/bgc/bgcMain4.gif');position:absolute;z-index:1"
+    style="background-image:url('../../前端页面资源/bgc/bgcMain4.gif');position:absolute;z-index:1"
   >
     
 
@@ -25,70 +25,70 @@
             <span>THREE.JS学习</span>
           </template>
           <!-- 简介 -->
-          <el-menu-item index="/THREEIntroduction" route="/THREEIntroduction" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">THREE.JS简介</el-menu-item>
+          <el-menu-item index="/THREEIntroduction" route="/THREEIntroduction" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">THREE.JS简介</el-menu-item>
           <!-- 初级篇 -->
-        <el-sub-menu index="1-1" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="1-1" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
         <template #title>初级篇:模型与动画</template>
-        <el-menu-item index="/threeBasic" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/threeBasic">Three.js快速入门</el-menu-item>
-        <el-menu-item index="/geometry"  style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geometry">几何体BufferGeometry顶点</el-menu-item>
-        <el-menu-item index="/model&material"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/model&material">模型对象,材质</el-menu-item>
-        <el-menu-item index="/group"  style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/group">层级模型</el-menu-item>
-        <el-menu-item index="/texture"  style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/texture">几何顶点UV坐标,纹理贴图</el-menu-item>
-        <el-menu-item index="/gltfLoader"  style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"     route="/gltfLoader">加载外部模型(gltf)</el-menu-item>
-        <el-menu-item index="/PBR"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/PBR">PBR材质</el-menu-item>
-        <el-menu-item index="/canvas"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/canvas">canvasUI</el-menu-item>
-        <el-menu-item index="/curve&geometry"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/curve&geometry">生成曲线、几何体</el-menu-item>
-        <el-menu-item index="/camera"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/camera">正交投影相机和包围盒调参数</el-menu-item>
-        <el-menu-item index="/camera1"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/camera1">相机参数，相机控件</el-menu-item>
-        <el-menu-item index="/lightAndShadow"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightAndShadow">光源和阴影</el-menu-item>
-        <el-menu-item index="/factory"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/factory">工厂案例</el-menu-item>
-        <el-menu-item index="/spirite"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/spirite">spirite精灵图</el-menu-item>
-        <el-menu-item index="/EffectComposer"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/EffectComposer">EffectComposer场景后处理</el-menu-item>
-        <el-menu-item index="/ray"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ray">ray射线拾取模型</el-menu-item>
-        <el-menu-item index="/label"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/label">标签标注场景</el-menu-item>
-        <el-menu-item index="/keyFrameAnimation"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/keyFrameAnimation">关键帧动画</el-menu-item>
-        <el-menu-item index="/granary"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/granary">初级篇终：粮仓案例</el-menu-item>
-        <el-menu-item index="/phone"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/phone">初级篇终：手机产品展示</el-menu-item>
-        <el-menu-item index="/car"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/car">初级篇终：轿车产品展示</el-menu-item>
+        <el-menu-item index="/threeBasic" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/threeBasic">Three.js快速入门</el-menu-item>
+        <el-menu-item index="/geometry"  style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geometry">几何体BufferGeometry顶点</el-menu-item>
+        <el-menu-item index="/model&material"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/model&material">模型对象,材质</el-menu-item>
+        <el-menu-item index="/group"  style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/group">层级模型</el-menu-item>
+        <el-menu-item index="/texture"  style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/texture">几何顶点UV坐标,纹理贴图</el-menu-item>
+        <el-menu-item index="/gltfLoader"  style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"     route="/gltfLoader">加载外部模型(gltf)</el-menu-item>
+        <el-menu-item index="/PBR"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/PBR">PBR材质</el-menu-item>
+        <el-menu-item index="/canvas"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/canvas">canvasUI</el-menu-item>
+        <el-menu-item index="/curve&geometry"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/curve&geometry">生成曲线、几何体</el-menu-item>
+        <el-menu-item index="/camera"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/camera">正交投影相机和包围盒调参数</el-menu-item>
+        <el-menu-item index="/camera1"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/camera1">相机参数，相机控件</el-menu-item>
+        <el-menu-item index="/lightAndShadow"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightAndShadow">光源和阴影</el-menu-item>
+        <el-menu-item index="/factory"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/factory">工厂案例</el-menu-item>
+        <el-menu-item index="/spirite"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/spirite">spirite精灵图</el-menu-item>
+        <el-menu-item index="/EffectComposer"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/EffectComposer">EffectComposer场景后处理</el-menu-item>
+        <el-menu-item index="/ray"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ray">ray射线拾取模型</el-menu-item>
+        <el-menu-item index="/label"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/label">标签标注场景</el-menu-item>
+        <el-menu-item index="/keyFrameAnimation"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/keyFrameAnimation">关键帧动画</el-menu-item>
+        <el-menu-item index="/granary"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/granary">初级篇终：粮仓案例</el-menu-item>
+        <el-menu-item index="/phone"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/phone">初级篇终：手机产品展示</el-menu-item>
+        <el-menu-item index="/car"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/car">初级篇终：轿车产品展示</el-menu-item>
         </el-sub-menu>
         <!-- 进阶篇 -->
-        <el-sub-menu index="1-2" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="1-2" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
         <template #title>进阶篇:数学几何计算</template>
-     <el-menu-item index="/basic"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/basic">几何计算基础(向量)</el-menu-item>
-     <el-menu-item index="/speedAddspeed"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/speedAddspeed">位移速度加速度向量</el-menu-item>
-     <el-menu-item index="/dotCross"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dotCross">向量点乘叉乘</el-menu-item>
-     <el-menu-item index="/EulerQuaternion"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/EulerQuaternion">欧拉角和四元数</el-menu-item>
-     <el-menu-item index="/Matrix"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Matrix">THREE.JS矩阵</el-menu-item>
-     <el-menu-item index="/Ramble"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Ramble">第一,三人称漫游</el-menu-item>
-     <el-menu-item index="/Ortree"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Ortree">八叉树碰撞检测</el-menu-item>
-     <el-menu-item index="/CannonJS"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CannonJS">Cannon.js物理引擎</el-menu-item>
-     <el-menu-item index="/worldMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMap">世界地图(GeoJSON数据解析,墨卡托坐标系)</el-menu-item>
-     <el-menu-item index="/chinaMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMap">中国大屏(射线拾取,标签标注,光圈热点)</el-menu-item>
-     <el-menu-item index="/chinaMapColor"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapColor">中国大屏(颜色)</el-menu-item>
-     <el-menu-item index="/chinaMapHeight"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapHeight">中国大屏(高度)</el-menu-item>
-     <el-menu-item index="/chinaBubbleMap"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaBubbleMap">中国大屏(气泡图)</el-menu-item>
-     <el-menu-item index="/chinaColumnMap"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaColumnMap">中国大屏(柱状图)</el-menu-item>
-     <el-menu-item index="/chinaPointMap"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaPointMap">中国大屏(密集点图)</el-menu-item>
-     <el-menu-item index="/chinaLineMap"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaLineMap">中国大屏(密集线图)</el-menu-item>
-     <el-menu-item index="/worldPeople"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldPeople">世界大屏(密集柱图)</el-menu-item>
-     <el-menu-item index="/chinaMapFlyLine"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapFlyLine">综合:中国大屏(飞线)</el-menu-item>
-     <el-menu-item index="/earthCoordinates"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthCoordinates">经纬度坐标转球坐标</el-menu-item>
-     <el-menu-item index="/worldMapEarth"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapEarth">保存渲染效果做贴图</el-menu-item>
-     <el-menu-item index="/worldMapSepherLine"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLine">球边界(线合并,密集点)</el-menu-item>
-     <el-menu-item index="/worldMapSepherLines"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLines">球体密集线图</el-menu-item>
-     <el-menu-item index="/worldMapSepherLabel"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLabel">球面标注</el-menu-item>
-     <el-menu-item index="/triangulation"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/triangulation">三角剖分(球面Mesh,turf.js)</el-menu-item>
-     <el-menu-item index="/sphereMesh"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sphereMesh">球面绘制Mesh柱状图</el-menu-item>
-     <el-menu-item index="/earthPoints"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthPoints">球面点阵模型(inside库)</el-menu-item>
-     <el-menu-item index="/earthColumn"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthColumn">球面密集柱模型</el-menu-item>
-     <el-menu-item index="/earthFlyLine"    style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthFlyLine">球面飞线可视化</el-menu-item>
+     <el-menu-item index="/basic"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/basic">几何计算基础(向量)</el-menu-item>
+     <el-menu-item index="/speedAddspeed"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/speedAddspeed">位移速度加速度向量</el-menu-item>
+     <el-menu-item index="/dotCross"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dotCross">向量点乘叉乘</el-menu-item>
+     <el-menu-item index="/EulerQuaternion"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/EulerQuaternion">欧拉角和四元数</el-menu-item>
+     <el-menu-item index="/Matrix"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Matrix">THREE.JS矩阵</el-menu-item>
+     <el-menu-item index="/Ramble"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Ramble">第一,三人称漫游</el-menu-item>
+     <el-menu-item index="/Ortree"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Ortree">八叉树碰撞检测</el-menu-item>
+     <el-menu-item index="/CannonJS"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CannonJS">Cannon.js物理引擎</el-menu-item>
+     <el-menu-item index="/worldMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMap">世界地图(GeoJSON数据解析,墨卡托坐标系)</el-menu-item>
+     <el-menu-item index="/chinaMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMap">中国大屏(射线拾取,标签标注,光圈热点)</el-menu-item>
+     <el-menu-item index="/chinaMapColor"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapColor">中国大屏(颜色)</el-menu-item>
+     <el-menu-item index="/chinaMapHeight"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapHeight">中国大屏(高度)</el-menu-item>
+     <el-menu-item index="/chinaBubbleMap"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaBubbleMap">中国大屏(气泡图)</el-menu-item>
+     <el-menu-item index="/chinaColumnMap"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaColumnMap">中国大屏(柱状图)</el-menu-item>
+     <el-menu-item index="/chinaPointMap"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaPointMap">中国大屏(密集点图)</el-menu-item>
+     <el-menu-item index="/chinaLineMap"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaLineMap">中国大屏(密集线图)</el-menu-item>
+     <el-menu-item index="/worldPeople"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldPeople">世界大屏(密集柱图)</el-menu-item>
+     <el-menu-item index="/chinaMapFlyLine"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/chinaMapFlyLine">综合:中国大屏(飞线)</el-menu-item>
+     <el-menu-item index="/earthCoordinates"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthCoordinates">经纬度坐标转球坐标</el-menu-item>
+     <el-menu-item index="/worldMapEarth"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapEarth">保存渲染效果做贴图</el-menu-item>
+     <el-menu-item index="/worldMapSepherLine"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLine">球边界(线合并,密集点)</el-menu-item>
+     <el-menu-item index="/worldMapSepherLines"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLines">球体密集线图</el-menu-item>
+     <el-menu-item index="/worldMapSepherLabel"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/worldMapSepherLabel">球面标注</el-menu-item>
+     <el-menu-item index="/triangulation"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/triangulation">三角剖分(球面Mesh,turf.js)</el-menu-item>
+     <el-menu-item index="/sphereMesh"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sphereMesh">球面绘制Mesh柱状图</el-menu-item>
+     <el-menu-item index="/earthPoints"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthPoints">球面点阵模型(inside库)</el-menu-item>
+     <el-menu-item index="/earthColumn"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthColumn">球面密集柱模型</el-menu-item>
+     <el-menu-item index="/earthFlyLine"    style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthFlyLine">球面飞线可视化</el-menu-item>
           </el-sub-menu>
         <!-- 高级篇 -->
-        <el-sub-menu index="1-3" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="1-3" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
         <template #title>高级篇:shader着色器</template>
-        <el-menu-item index="/shaderMaterial"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/shaderMaterial">THREE.JS的shaderMaterial材质</el-menu-item>
-        <el-menu-item index="/onBeforeCompile"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/onBeforeCompile">THREE.JS的onBeforeCompile修改材质</el-menu-item>
-        <el-menu-item index="/smartCity"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/smartCity">智慧城市</el-menu-item>
+        <el-menu-item index="/shaderMaterial"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/shaderMaterial">THREE.JS的shaderMaterial材质</el-menu-item>
+        <el-menu-item index="/onBeforeCompile"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/onBeforeCompile">THREE.JS的onBeforeCompile修改材质</el-menu-item>
+        <el-menu-item index="/smartCity"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/smartCity">智慧城市</el-menu-item>
           </el-sub-menu>
       </el-sub-menu>
 
@@ -97,128 +97,128 @@
           <template #title>
             <span>Cesium.JS学习</span>
           </template>
-        <el-menu-item index="/CesiumIntroduction" route="/CesiumIntroduction" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">Cesium.JS简介</el-menu-item>
-           <el-sub-menu index="2-1" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-menu-item index="/CesiumIntroduction" route="/CesiumIntroduction" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">Cesium.JS简介</el-menu-item>
+           <el-sub-menu index="2-1" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>Cesium入门:认识基础API</template>
-            <el-menu-item index="/cesiumEarthBasic"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cesiumEarthBasic">创建Cesium地球并隐藏默认控件</el-menu-item>
-            <el-menu-item index="/Entity"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Entity">Cesium绘制形状(Entity,FlyTo)</el-menu-item>
-            <el-menu-item index="/cluster"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cluster">Entity聚合效果</el-menu-item>
-            <el-menu-item index="/3DTile"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/3DTile">添加3DTiles并用矩阵和相机调位</el-menu-item>
-            <el-menu-item index="/Material"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Material">Cesium的材质</el-menu-item>
-            <el-menu-item index="/geojson"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojson">Cesium加载GeoJSON</el-menu-item>
-            <el-menu-item index="/arc"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/arc">自定义扇形</el-menu-item>
-            <el-menu-item index="/polylineType"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineType">polyline弧段类型</el-menu-item>
-            <el-menu-item index="/earthMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthMap">加载高德地图</el-menu-item>
-            <el-menu-item index="/tiandiMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/tiandiMap">加载天地图</el-menu-item>
-            <el-menu-item index="/baiduMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/baiduMap">加载百度地图地图</el-menu-item>
+            <el-menu-item index="/cesiumEarthBasic"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cesiumEarthBasic">创建Cesium地球并隐藏默认控件</el-menu-item>
+            <el-menu-item index="/Entity"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Entity">Cesium绘制形状(Entity,FlyTo)</el-menu-item>
+            <el-menu-item index="/cluster"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cluster">Entity聚合效果</el-menu-item>
+            <el-menu-item index="/3DTile"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/3DTile">添加3DTiles并用矩阵和相机调位</el-menu-item>
+            <el-menu-item index="/Material"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Material">Cesium的材质</el-menu-item>
+            <el-menu-item index="/geojson"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojson">Cesium加载GeoJSON</el-menu-item>
+            <el-menu-item index="/arc"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/arc">自定义扇形</el-menu-item>
+            <el-menu-item index="/polylineType"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineType">polyline弧段类型</el-menu-item>
+            <el-menu-item index="/earthMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/earthMap">加载高德地图</el-menu-item>
+            <el-menu-item index="/tiandiMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/tiandiMap">加载天地图</el-menu-item>
+            <el-menu-item index="/baiduMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/baiduMap">加载百度地图地图</el-menu-item>
            </el-sub-menu>
-           <el-sub-menu index="2-2" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+           <el-sub-menu index="2-2" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>Cesium中级:基础API的运用</template>
-            <el-menu-item index="/gridentTexture"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gridentTexture">使用渐变纹理贴图(仿沙盒,canvas)</el-menu-item>
-            <el-menu-item index="/InundationAnalysis"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/InundationAnalysis">淹没分析</el-menu-item>
-            <el-menu-item index="/groundLine"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/groundLine">Cesium贴地线</el-menu-item>
-            <el-menu-item index="/globeTexture"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/globeTexture">全球视频纹理(地球贴纹理)</el-menu-item>
-            <el-menu-item index="/CZML"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZML">CZML动态数据</el-menu-item>
-            <el-menu-item index="/HeatMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/HeatMap">Cesium热力图HeatMap</el-menu-item>
-            <el-menu-item index="/callbackProperty"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/callbackProperty">callbackProperty动态参数</el-menu-item>
-            <el-menu-item index="/eye"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eye">Cesium鹰眼图(callbackProperty)</el-menu-item>
-            <el-menu-item index="/ContourLine"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ContourLine">等高线</el-menu-item>
-            <el-menu-item index="/ElevationRamp"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ElevationRamp">高程晕眩图</el-menu-item>
-            <el-menu-item index="/ElevationBand"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ElevationBand">高程自由设色图</el-menu-item>
-            <el-menu-item index="/polylineUnderGround"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineUnderGround">物体在地下(地图透明,消除相机碰撞检测)</el-menu-item>
-            <el-menu-item index="/ColumbusView"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ColumbusView">二三维,哥伦布视图切换</el-menu-item>
-            <el-menu-item index="/pin"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pin">billBoard的pin类</el-menu-item>
-            <el-menu-item index="/polylineVolumn1"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineVolumn1">创建管道几何体</el-menu-item>
-            <el-menu-item index="/clipPlane"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/clipPlane">裁剪平面</el-menu-item>
-            <el-menu-item index="/divideScreen"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/divideScreen">分屏效果</el-menu-item>
+            <el-menu-item index="/gridentTexture"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gridentTexture">使用渐变纹理贴图(仿沙盒,canvas)</el-menu-item>
+            <el-menu-item index="/InundationAnalysis"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/InundationAnalysis">淹没分析</el-menu-item>
+            <el-menu-item index="/groundLine"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/groundLine">Cesium贴地线</el-menu-item>
+            <el-menu-item index="/globeTexture"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/globeTexture">全球视频纹理(地球贴纹理)</el-menu-item>
+            <el-menu-item index="/CZML"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZML">CZML动态数据</el-menu-item>
+            <el-menu-item index="/HeatMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/HeatMap">Cesium热力图HeatMap</el-menu-item>
+            <el-menu-item index="/callbackProperty"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/callbackProperty">callbackProperty动态参数</el-menu-item>
+            <el-menu-item index="/eye"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eye">Cesium鹰眼图(callbackProperty)</el-menu-item>
+            <el-menu-item index="/ContourLine"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ContourLine">等高线</el-menu-item>
+            <el-menu-item index="/ElevationRamp"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ElevationRamp">高程晕眩图</el-menu-item>
+            <el-menu-item index="/ElevationBand"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ElevationBand">高程自由设色图</el-menu-item>
+            <el-menu-item index="/polylineUnderGround"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineUnderGround">物体在地下(地图透明,消除相机碰撞检测)</el-menu-item>
+            <el-menu-item index="/ColumbusView"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ColumbusView">二三维,哥伦布视图切换</el-menu-item>
+            <el-menu-item index="/pin"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pin">billBoard的pin类</el-menu-item>
+            <el-menu-item index="/polylineVolumn1"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineVolumn1">创建管道几何体</el-menu-item>
+            <el-menu-item index="/clipPlane"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/clipPlane">裁剪平面</el-menu-item>
+            <el-menu-item index="/divideScreen"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/divideScreen">分屏效果</el-menu-item>
            </el-sub-menu>
-          <el-sub-menu index="2-3" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+          <el-sub-menu index="2-3" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>Cesium高级:研究API与着色器</template>
-            <el-menu-item index="/animation"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/animation">Cesium的Animation控件</el-menu-item>
-            <el-menu-item index="/singleColorEarth"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/singleColorEarth">纯色地球</el-menu-item>
-            <el-menu-item index="/viewerFlyContinue"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/viewerFlyContinue">视角连续飞行</el-menu-item>
-            <el-menu-item index="/picking"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/picking">鼠标位置显示(picking)</el-menu-item>
-            <el-menu-item index="/bubbleWindow"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/bubbleWindow">气泡窗(防遮挡)</el-menu-item>
-            <el-menu-item index="/entitySelect"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entitySelect">改变entity选中效果</el-menu-item>
-            <el-menu-item index="/limitMap"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/limitMap">限制地图底图范围</el-menu-item>
-            <el-menu-item index="/primitive"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/primitive">primitive实体</el-menu-item>
-            <el-menu-item index="/dashCircle"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dashCircle">绘制虚线圆</el-menu-item>
-            <el-menu-item index="/customPrimitive"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customPrimitive">自定义primitive实体</el-menu-item>
-            <el-menu-item index="/ray1"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ray1">射线</el-menu-item>
-            <el-menu-item index="/water"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/water">Cesium水面特效</el-menu-item>
-            <el-menu-item index="/customMaterial"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customMaterial">自定义材质用于entity和primitive</el-menu-item>
-            <el-menu-item index="/cylinder"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cylinder">圆锥贴图(仿源码自定义Primitive)</el-menu-item>
-            <el-menu-item index="/modelRotation"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/modelRotation">模型旋转(primitive和entity两种模型)</el-menu-item>
-            <el-menu-item index="/modelDirection"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/modelDirection">创建多个模型朝向一个点</el-menu-item>
-            <el-menu-item index="/polygonHole"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonHole">带洞的多边形效果</el-menu-item>
-            <el-menu-item index="/geojsonPointType"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojsonPointType">geojson的点样式</el-menu-item>
-            <el-menu-item index="/particleSystem"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/particleSystem">Cesium粒子系统(ParticleSystem)</el-menu-item>
-            <el-menu-item index="/velocityOrientation"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/velocityOrientation" active-class="active"  >运动方向(VelocityOrientationProperty)</el-menu-item>
-            <el-menu-item index="/timeLine"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/timeLine">交互式添加时间线</el-menu-item>
-            <el-menu-item index="/turf"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turf">缓冲区分析(turf)</el-menu-item>
-            <el-menu-item index="/mapCenter"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mapCenter">显示多边形内地图</el-menu-item>
-            <el-menu-item index="/textureClip"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/textureClip">矩形纹理裁剪</el-menu-item>
-            <el-menu-item index="/rainbow"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rainbow">绘制彩虹</el-menu-item>
-            <el-menu-item index="/transformScaleRotate"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/transformScaleRotate">Primitive的平移缩放旋转</el-menu-item>
-            <el-menu-item index="/lookAt"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lookAt">仿THREE的lookAt示例</el-menu-item>
-            <el-menu-item index="/taichi"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/taichi">点击绘制太极</el-menu-item>
-            <el-menu-item index="/CZMLClockRange"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLClockRange">CZML的clock的range属性</el-menu-item>
-            <el-menu-item index="/geojsonWater"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojsonWater">geojson水面材质</el-menu-item>
-            <el-menu-item index="/intersectRay"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/intersectRay">射线拾取物体</el-menu-item>
-            <el-menu-item index="/lookAtTransform"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lookAtTransform">视角跟随效果</el-menu-item>
-            <el-menu-item index="/CZMLPointsDivide"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLPointsDivide">CZML动点二分线段</el-menu-item>
-            <el-menu-item index="/customGeometry"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customGeometry">自定义条带形状</el-menu-item>
-            <el-menu-item index="/satelliteScan"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/satelliteScan">卫星拍摄效果</el-menu-item>
-            <el-menu-item index="/hide"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/hide">关于物体遮挡</el-menu-item>
-            <el-menu-item index="/cubeTexture"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cubeTexture">关于贴图问题</el-menu-item>
-            <el-menu-item index="/likeBufferGeometry"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/likeBufferGeometry">仿THREE的bufferGeometry示例</el-menu-item>
-            <el-menu-item index="/ModelMaterial"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ModelMaterial">仿THREE的Materials/Car示例</el-menu-item>
-            <el-menu-item index="/textureOverlay"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/textureOverlay">多重纹理叠加</el-menu-item>
-            <el-menu-item index="/trangleByTwoPoints"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/trangleByTwoPoints">根据顶点和垂足两点绘制三角形</el-menu-item>
-            <el-menu-item index="/turfDesitination"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turfDesitination">根据起点,距离,角度找目标点(turf)</el-menu-item>
-            <el-menu-item index="/terrianPosition"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/terrianPosition">通过点击获取地形或物体上的位置</el-menu-item>
-            <el-menu-item index="/LED"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/LED">LED标志投射灯效果</el-menu-item>
-            <el-menu-item index="/entityRotate"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entityRotate">Entity旋转</el-menu-item>
-            <el-menu-item index="/vectorExtrude"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vectorExtrude">根据矢量方向拉伸面</el-menu-item>
-            <el-menu-item index="/colorText"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorText">彩色文字</el-menu-item>
-            <el-menu-item index="/DynamicDashedLine"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/DynamicDashedLine">动态虚线</el-menu-item>
-            <el-menu-item index="/changeGlowLineColor"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/changeGlowLineColor">发光线颜色修改</el-menu-item>
-            <el-menu-item index="/lightning"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightning">闪电</el-menu-item>
-            <el-menu-item index="/lonlatGrid"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lonlatGrid">绘制公里网格</el-menu-item>
-            <el-menu-item index="/vertexShaderChangePoint"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vertexShaderChangePoint">顶点着色器改大小(PointPrimitiveCollection)</el-menu-item>
-            <el-menu-item index="/CZMLConectMovingPoint"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLConectMovingPoint">CZML动点连线</el-menu-item>
-            <el-menu-item index="/Road"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Road">道路效果</el-menu-item>
-            <el-menu-item index="/Flag"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Flag">模拟旗帜效果(顶点着色器)</el-menu-item>
-            <el-menu-item index="/polygonChange"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonChange">polygon随时间变化</el-menu-item>
-            <el-menu-item index="/TilePick"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/TilePick">点击3DTile侧面画圆</el-menu-item>
-            <el-menu-item index="/THREEDRadar"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/THREEDRadar">立体雷达</el-menu-item>
-            <el-menu-item index="/pointInsideCylinder"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pointInsideCylinder">判断点在圆锥内</el-menu-item>
-            <el-menu-item index="/pointInsideCylinder"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineVolumn">polylineVolumn重构</el-menu-item>
-            <el-menu-item index="/polylineVolumn"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/path">动态path添加点线(path)</el-menu-item>
-            <el-menu-item index="/rayAndEarth"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rayAndEarth">射线与地球相交</el-menu-item>
-            <el-menu-item index="/polygonFull"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonFull">斜线填充多边形</el-menu-item>
-            <el-menu-item index="/THREEDTileStyle"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/THREEDTileStyle">3DTile风格调整(customShader)</el-menu-item>
-            <el-menu-item index="/cylinderTwoPoint"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cylinderTwoPoint">两点构建圆锥</el-menu-item>
-            <el-menu-item index="/gltfColorGrident"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gltfColorGrident">gltf模型颜色渐变</el-menu-item>
-            <el-menu-item index="/PostProcess"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/PostProcess">视图后处理(postProcess)</el-menu-item>
-            <el-menu-item index="/video"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/video">视频显示</el-menu-item>
-            <el-menu-item index="/lightningPlus"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightningPlus">闪电plus</el-menu-item>
-            <el-menu-item index="/eyeCylinderBottom"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eyeCylinderBottom">视椎体底部坐标</el-menu-item>
-            <el-menu-item index="/eyeCylinderBottom1"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eyeCylinderBottom1">视椎体底部坐标(旋转矩阵获得)</el-menu-item>
-            <el-menu-item index="/axes"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/axes">坐标轴</el-menu-item>
-            <el-menu-item index="/Fog"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Fog">雾</el-menu-item>
-            <el-menu-item index="/polygonBorderGrident"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonBorderGrident">多边形边缘渐变</el-menu-item>
-            <el-menu-item index="/volumnRendering"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/volumnRendering">体渲染</el-menu-item>
-            <el-menu-item index="/explosion"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/explosion">爆炸特效</el-menu-item>
-            <el-menu-item index="/explosionPlus"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/explosionPlus">爆炸特效plus</el-menu-item>
-            <el-menu-item index="/manyEarth"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/manyEarth">显示多个球</el-menu-item>
-            <el-menu-item index="/turfTIN"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turfTIN">显示turf构成的TIN</el-menu-item>
-            <el-menu-item index="/entitiesPostProcess"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entitiesPostProcess">entities后处理</el-menu-item>
-            <el-menu-item index="/HeatMap1"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/HeatMap1">动态热力图</el-menu-item>
-            <el-menu-item index="/lightStyle"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightStyle">发光效果后处理</el-menu-item>
-            <el-menu-item index="/skyBox"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/skyBox">天空盒</el-menu-item>
-            <el-menu-item index="/rain"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rain">下雨效果</el-menu-item>
-            <el-menu-item index="/snow"   style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/snow">下雪效果</el-menu-item>
+            <el-menu-item index="/animation"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/animation">Cesium的Animation控件</el-menu-item>
+            <el-menu-item index="/singleColorEarth"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/singleColorEarth">纯色地球</el-menu-item>
+            <el-menu-item index="/viewerFlyContinue"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/viewerFlyContinue">视角连续飞行</el-menu-item>
+            <el-menu-item index="/picking"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/picking">鼠标位置显示(picking)</el-menu-item>
+            <el-menu-item index="/bubbleWindow"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/bubbleWindow">气泡窗(防遮挡)</el-menu-item>
+            <el-menu-item index="/entitySelect"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entitySelect">改变entity选中效果</el-menu-item>
+            <el-menu-item index="/limitMap"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/limitMap">限制地图底图范围</el-menu-item>
+            <el-menu-item index="/primitive"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/primitive">primitive实体</el-menu-item>
+            <el-menu-item index="/dashCircle"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dashCircle">绘制虚线圆</el-menu-item>
+            <el-menu-item index="/customPrimitive"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customPrimitive">自定义primitive实体</el-menu-item>
+            <el-menu-item index="/ray1"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ray1">射线</el-menu-item>
+            <el-menu-item index="/water"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/water">Cesium水面特效</el-menu-item>
+            <el-menu-item index="/customMaterial"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customMaterial">自定义材质用于entity和primitive</el-menu-item>
+            <el-menu-item index="/cylinder"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cylinder">圆锥贴图(仿源码自定义Primitive)</el-menu-item>
+            <el-menu-item index="/modelRotation"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/modelRotation">模型旋转(primitive和entity两种模型)</el-menu-item>
+            <el-menu-item index="/modelDirection"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/modelDirection">创建多个模型朝向一个点</el-menu-item>
+            <el-menu-item index="/polygonHole"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonHole">带洞的多边形效果</el-menu-item>
+            <el-menu-item index="/geojsonPointType"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojsonPointType">geojson的点样式</el-menu-item>
+            <el-menu-item index="/particleSystem"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/particleSystem">Cesium粒子系统(ParticleSystem)</el-menu-item>
+            <el-menu-item index="/velocityOrientation"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/velocityOrientation" active-class="active"  >运动方向(VelocityOrientationProperty)</el-menu-item>
+            <el-menu-item index="/timeLine"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/timeLine">交互式添加时间线</el-menu-item>
+            <el-menu-item index="/turf"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turf">缓冲区分析(turf)</el-menu-item>
+            <el-menu-item index="/mapCenter"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mapCenter">显示多边形内地图</el-menu-item>
+            <el-menu-item index="/textureClip"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/textureClip">矩形纹理裁剪</el-menu-item>
+            <el-menu-item index="/rainbow"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rainbow">绘制彩虹</el-menu-item>
+            <el-menu-item index="/transformScaleRotate"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/transformScaleRotate">Primitive的平移缩放旋转</el-menu-item>
+            <el-menu-item index="/lookAt"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lookAt">仿THREE的lookAt示例</el-menu-item>
+            <el-menu-item index="/taichi"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/taichi">点击绘制太极</el-menu-item>
+            <el-menu-item index="/CZMLClockRange"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLClockRange">CZML的clock的range属性</el-menu-item>
+            <el-menu-item index="/geojsonWater"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/geojsonWater">geojson水面材质</el-menu-item>
+            <el-menu-item index="/intersectRay"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/intersectRay">射线拾取物体</el-menu-item>
+            <el-menu-item index="/lookAtTransform"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lookAtTransform">视角跟随效果</el-menu-item>
+            <el-menu-item index="/CZMLPointsDivide"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLPointsDivide">CZML动点二分线段</el-menu-item>
+            <el-menu-item index="/customGeometry"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/customGeometry">自定义条带形状</el-menu-item>
+            <el-menu-item index="/satelliteScan"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/satelliteScan">卫星拍摄效果</el-menu-item>
+            <el-menu-item index="/hide"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/hide">关于物体遮挡</el-menu-item>
+            <el-menu-item index="/cubeTexture"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cubeTexture">关于贴图问题</el-menu-item>
+            <el-menu-item index="/likeBufferGeometry"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/likeBufferGeometry">仿THREE的bufferGeometry示例</el-menu-item>
+            <el-menu-item index="/ModelMaterial"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ModelMaterial">仿THREE的Materials/Car示例</el-menu-item>
+            <el-menu-item index="/textureOverlay"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/textureOverlay">多重纹理叠加</el-menu-item>
+            <el-menu-item index="/trangleByTwoPoints"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/trangleByTwoPoints">根据顶点和垂足两点绘制三角形</el-menu-item>
+            <el-menu-item index="/turfDesitination"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turfDesitination">根据起点,距离,角度找目标点(turf)</el-menu-item>
+            <el-menu-item index="/terrianPosition"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/terrianPosition">通过点击获取地形或物体上的位置</el-menu-item>
+            <el-menu-item index="/LED"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/LED">LED标志投射灯效果</el-menu-item>
+            <el-menu-item index="/entityRotate"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entityRotate">Entity旋转</el-menu-item>
+            <el-menu-item index="/vectorExtrude"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vectorExtrude">根据矢量方向拉伸面</el-menu-item>
+            <el-menu-item index="/colorText"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorText">彩色文字</el-menu-item>
+            <el-menu-item index="/DynamicDashedLine"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/DynamicDashedLine">动态虚线</el-menu-item>
+            <el-menu-item index="/changeGlowLineColor"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/changeGlowLineColor">发光线颜色修改</el-menu-item>
+            <el-menu-item index="/lightning"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightning">闪电</el-menu-item>
+            <el-menu-item index="/lonlatGrid"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lonlatGrid">绘制公里网格</el-menu-item>
+            <el-menu-item index="/vertexShaderChangePoint"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vertexShaderChangePoint">顶点着色器改大小(PointPrimitiveCollection)</el-menu-item>
+            <el-menu-item index="/CZMLConectMovingPoint"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/CZMLConectMovingPoint">CZML动点连线</el-menu-item>
+            <el-menu-item index="/Road"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Road">道路效果</el-menu-item>
+            <el-menu-item index="/Flag"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Flag">模拟旗帜效果(顶点着色器)</el-menu-item>
+            <el-menu-item index="/polygonChange"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonChange">polygon随时间变化</el-menu-item>
+            <el-menu-item index="/TilePick"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/TilePick">点击3DTile侧面画圆</el-menu-item>
+            <el-menu-item index="/THREEDRadar"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/THREEDRadar">立体雷达</el-menu-item>
+            <el-menu-item index="/pointInsideCylinder"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pointInsideCylinder">判断点在圆锥内</el-menu-item>
+            <el-menu-item index="/pointInsideCylinder"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polylineVolumn">polylineVolumn重构</el-menu-item>
+            <el-menu-item index="/polylineVolumn"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/path">动态path添加点线(path)</el-menu-item>
+            <el-menu-item index="/rayAndEarth"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rayAndEarth">射线与地球相交</el-menu-item>
+            <el-menu-item index="/polygonFull"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonFull">斜线填充多边形</el-menu-item>
+            <el-menu-item index="/THREEDTileStyle"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/THREEDTileStyle">3DTile风格调整(customShader)</el-menu-item>
+            <el-menu-item index="/cylinderTwoPoint"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/cylinderTwoPoint">两点构建圆锥</el-menu-item>
+            <el-menu-item index="/gltfColorGrident"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gltfColorGrident">gltf模型颜色渐变</el-menu-item>
+            <el-menu-item index="/PostProcess"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/PostProcess">视图后处理(postProcess)</el-menu-item>
+            <el-menu-item index="/video"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/video">视频显示</el-menu-item>
+            <el-menu-item index="/lightningPlus"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightningPlus">闪电plus</el-menu-item>
+            <el-menu-item index="/eyeCylinderBottom"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eyeCylinderBottom">视椎体底部坐标</el-menu-item>
+            <el-menu-item index="/eyeCylinderBottom1"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/eyeCylinderBottom1">视椎体底部坐标(旋转矩阵获得)</el-menu-item>
+            <el-menu-item index="/axes"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/axes">坐标轴</el-menu-item>
+            <el-menu-item index="/Fog"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/Fog">雾</el-menu-item>
+            <el-menu-item index="/polygonBorderGrident"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/polygonBorderGrident">多边形边缘渐变</el-menu-item>
+            <el-menu-item index="/volumnRendering"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/volumnRendering">体渲染</el-menu-item>
+            <el-menu-item index="/explosion"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/explosion">爆炸特效</el-menu-item>
+            <el-menu-item index="/explosionPlus"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/explosionPlus">爆炸特效plus</el-menu-item>
+            <el-menu-item index="/manyEarth"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/manyEarth">显示多个球</el-menu-item>
+            <el-menu-item index="/turfTIN"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/turfTIN">显示turf构成的TIN</el-menu-item>
+            <el-menu-item index="/entitiesPostProcess"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/entitiesPostProcess">entities后处理</el-menu-item>
+            <el-menu-item index="/HeatMap1"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/HeatMap1">动态热力图</el-menu-item>
+            <el-menu-item index="/lightStyle"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lightStyle">发光效果后处理</el-menu-item>
+            <el-menu-item index="/skyBox"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/skyBox">天空盒</el-menu-item>
+            <el-menu-item index="/rain"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rain">下雨效果</el-menu-item>
+            <el-menu-item index="/snow"   style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/snow">下雪效果</el-menu-item>
            </el-sub-menu>
       </el-sub-menu>
       <!-- webGL学习 -->
@@ -226,83 +226,83 @@
           <template #title>
             <span>原生webGL学习</span>
           </template>
-        <el-menu-item index="/webGLImportance" route="/webGLImportance" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">学习原生webGL的必要性</el-menu-item>
-        <el-sub-menu index="3-1" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-menu-item index="/webGLImportance" route="/webGLImportance" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">学习原生webGL的必要性</el-menu-item>
+        <el-sub-menu index="3-1" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>webgl编程基础</template>
-        <el-menu-item index="/gl_Point" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Point">webGL绘制一个点</el-menu-item>
-        <el-menu-item index="/gl_Rect" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Rect" >webGL绘制矩形</el-menu-item>
-        <el-menu-item index="/gl_Coordinate" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Coordinate">webGL标准设备坐标</el-menu-item>
-        <el-menu-item index="/gl_Matrix" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Matrix">绘立方体(模型矩阵)</el-menu-item>
-        <el-menu-item index="/gl_CubeIndex" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_CubeIndex">绘立方体(索引绘制)</el-menu-item>
-        <el-menu-item index="/gl_DepthTest" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_DepthTest">颜色插值,深度测试</el-menu-item>
-        <el-menu-item index="/gl_PointLight" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_PointLight">webGL光照(点光源)</el-menu-item>
-        <el-menu-item index="/gl_DirLight" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_DirLight">webGL光照(平行光)</el-menu-item>
-        <el-menu-item index="/gl_Rotate" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Rotate">立方体旋转动画(旋转矩阵)</el-menu-item>
-        <el-menu-item index="/gl_Texture" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Texture">纹理贴图(灰度转换)</el-menu-item>
-        <el-menu-item index="/gl_Program" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Program">切换着色器程序</el-menu-item>
-        <el-menu-item index="/gl_aMix" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_aMix">透明度与α融合</el-menu-item>
-        <el-menu-item index="/gl_Depth&aMix" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Depth&aMix">深度测试与α融合</el-menu-item>
-        <el-menu-item index="/colorChange" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorChange">让颜色动起来</el-menu-item>
+        <el-menu-item index="/gl_Point" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Point">webGL绘制一个点</el-menu-item>
+        <el-menu-item index="/gl_Rect" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Rect" >webGL绘制矩形</el-menu-item>
+        <el-menu-item index="/gl_Coordinate" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Coordinate">webGL标准设备坐标</el-menu-item>
+        <el-menu-item index="/gl_Matrix" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Matrix">绘立方体(模型矩阵)</el-menu-item>
+        <el-menu-item index="/gl_CubeIndex" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_CubeIndex">绘立方体(索引绘制)</el-menu-item>
+        <el-menu-item index="/gl_DepthTest" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_DepthTest">颜色插值,深度测试</el-menu-item>
+        <el-menu-item index="/gl_PointLight" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_PointLight">webGL光照(点光源)</el-menu-item>
+        <el-menu-item index="/gl_DirLight" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_DirLight">webGL光照(平行光)</el-menu-item>
+        <el-menu-item index="/gl_Rotate" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Rotate">立方体旋转动画(旋转矩阵)</el-menu-item>
+        <el-menu-item index="/gl_Texture" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Texture">纹理贴图(灰度转换)</el-menu-item>
+        <el-menu-item index="/gl_Program" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Program">切换着色器程序</el-menu-item>
+        <el-menu-item index="/gl_aMix" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_aMix">透明度与α融合</el-menu-item>
+        <el-menu-item index="/gl_Depth&aMix" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/gl_Depth&aMix">深度测试与α融合</el-menu-item>
+        <el-menu-item index="/colorChange" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorChange">让颜色动起来</el-menu-item>
         </el-sub-menu>
-        <el-sub-menu index="3-2" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-2" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之初始化坐标,颜色</template>
-            <el-menu-item index="/externalVariable" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/externalVariable">常见外部输入变量</el-menu-item>
-            <el-menu-item index="/coordinateCorrection" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/coordinateCorrection">坐标修正</el-menu-item>
-            <el-menu-item index="/colorTransform" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorTransform">颜色转换</el-menu-item>
+            <el-menu-item index="/externalVariable" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/externalVariable">常见外部输入变量</el-menu-item>
+            <el-menu-item index="/coordinateCorrection" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/coordinateCorrection">坐标修正</el-menu-item>
+            <el-menu-item index="/colorTransform" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/colorTransform">颜色转换</el-menu-item>
         </el-sub-menu>
-        <el-sub-menu index="3-3" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-3" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之常用函数</template>
-            <el-menu-item index="/abs" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/abs">abs(取绝对值)</el-menu-item>
-            <el-menu-item index="/sign" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sign">sign(大于零取1,小于零取-1)</el-menu-item>
-            <el-menu-item index="/ceil" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ceil">ceil(向上取整)</el-menu-item>
-            <el-menu-item index="/floor" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/floor">floor(向下取整)</el-menu-item>
-            <el-menu-item index="/step" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/step">step(x的左右取0,1)</el-menu-item>
-            <el-menu-item index="/smoothstep" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/smoothstep">smoothstep(带过渡渐变的step)</el-menu-item>
-            <el-menu-item index="/minMax" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/minMax">minMax(最大值,最小值)</el-menu-item>
-            <el-menu-item index="/mod" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mod">mod(取余)</el-menu-item>
-            <el-menu-item index="/mix" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mix">mix(混合)</el-menu-item>
-            <el-menu-item index="/clamp" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/clamp">clamp(限制变量范围)</el-menu-item>
-            <el-menu-item index="/fract" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fract">fract(取小数位)</el-menu-item>
+            <el-menu-item index="/abs" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/abs">abs(取绝对值)</el-menu-item>
+            <el-menu-item index="/sign" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sign">sign(大于零取1,小于零取-1)</el-menu-item>
+            <el-menu-item index="/ceil" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/ceil">ceil(向上取整)</el-menu-item>
+            <el-menu-item index="/floor" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/floor">floor(向下取整)</el-menu-item>
+            <el-menu-item index="/step" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/step">step(x的左右取0,1)</el-menu-item>
+            <el-menu-item index="/smoothstep" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/smoothstep">smoothstep(带过渡渐变的step)</el-menu-item>
+            <el-menu-item index="/minMax" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/minMax">minMax(最大值,最小值)</el-menu-item>
+            <el-menu-item index="/mod" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mod">mod(取余)</el-menu-item>
+            <el-menu-item index="/mix" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/mix">mix(混合)</el-menu-item>
+            <el-menu-item index="/clamp" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/clamp">clamp(限制变量范围)</el-menu-item>
+            <el-menu-item index="/fract" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fract">fract(取小数位)</el-menu-item>
         </el-sub-menu>
-        <el-sub-menu index="3-4" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-4" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之三角函数</template>
-            <el-menu-item index="/radiansAndDegrees" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/radiansAndDegrees">radians and degrees(角度弧度转换)</el-menu-item>
-            <el-menu-item index="/sinAndCos" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sinAndCos">sin and cos(正弦函数和余弦函数)</el-menu-item>
-            <el-menu-item index="/tan" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/tan">tan(正切函数)</el-menu-item>
-            <el-menu-item index="/asinAndAcos" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/asinAndAcos">asin and acos(反正弦,反余弦)</el-menu-item>
-            <el-menu-item index="/atan" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/atan">atan(反正切函数)</el-menu-item>
+            <el-menu-item index="/radiansAndDegrees" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/radiansAndDegrees">radians and degrees(角度弧度转换)</el-menu-item>
+            <el-menu-item index="/sinAndCos" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sinAndCos">sin and cos(正弦函数和余弦函数)</el-menu-item>
+            <el-menu-item index="/tan" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/tan">tan(正切函数)</el-menu-item>
+            <el-menu-item index="/asinAndAcos" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/asinAndAcos">asin and acos(反正弦,反余弦)</el-menu-item>
+            <el-menu-item index="/atan" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/atan">atan(反正切函数)</el-menu-item>
         </el-sub-menu>
-        <el-sub-menu index="3-5" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-5" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之几何函数</template>
-            <el-menu-item index="/lengthAndDistance" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lengthAndDistance">length and distance(长度和距离)</el-menu-item>
-            <el-menu-item index="/dotCrossNormalize" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dotCrossNormalize">dot,cross,normalize(点乘,叉乘,归一化)</el-menu-item>
-            <el-menu-item index="/radar" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/radar">雷达(上一个的优化)</el-menu-item>
-            <el-menu-item index="/faceforward" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/faceforward">faceforward(关于入射角度)</el-menu-item>
-            <el-menu-item index="/reflect" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/reflect">reflect(关于向量的入射反射)</el-menu-item>
-            <el-menu-item index="/refract" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/refract">refract(关于向量的折射)</el-menu-item>
+            <el-menu-item index="/lengthAndDistance" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/lengthAndDistance">length and distance(长度和距离)</el-menu-item>
+            <el-menu-item index="/dotCrossNormalize" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/dotCrossNormalize">dot,cross,normalize(点乘,叉乘,归一化)</el-menu-item>
+            <el-menu-item index="/radar" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/radar">雷达(上一个的优化)</el-menu-item>
+            <el-menu-item index="/faceforward" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/faceforward">faceforward(关于入射角度)</el-menu-item>
+            <el-menu-item index="/reflect" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/reflect">reflect(关于向量的入射反射)</el-menu-item>
+            <el-menu-item index="/refract" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/refract">refract(关于向量的折射)</el-menu-item>
         </el-sub-menu>    
-        <el-sub-menu index="3-6" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-6" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之指数与矢量函数</template>
-            <el-menu-item index="/pow" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pow">pow(取次方)</el-menu-item>
-            <el-menu-item index="/exp" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/exp">exp(取e的x次方)</el-menu-item>
-            <el-menu-item index="/log" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/log">log(取对数)</el-menu-item>
-            <el-menu-item index="/vec" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vec">矢量函数(对vec矢量进行判断)</el-menu-item>
+            <el-menu-item index="/pow" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/pow">pow(取次方)</el-menu-item>
+            <el-menu-item index="/exp" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/exp">exp(取e的x次方)</el-menu-item>
+            <el-menu-item index="/log" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/log">log(取对数)</el-menu-item>
+            <el-menu-item index="/vec" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/vec">矢量函数(对vec矢量进行判断)</el-menu-item>
         </el-sub-menu>  
-        <el-sub-menu index="3-7" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-7" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title >GLSL着色器之随机数,噪音,分型</template> 
-            <el-menu-item index="/random" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/random">随机数(取巧的伪随机数)</el-menu-item>
-            <el-menu-item index="/noise" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/noise">噪音(有规律的随机数)</el-menu-item>
-            <el-menu-item index="/genotyping" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/genotyping">分型(一种特殊的递归)</el-menu-item>
+            <el-menu-item index="/random" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/random">随机数(取巧的伪随机数)</el-menu-item>
+            <el-menu-item index="/noise" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/noise">噪音(有规律的随机数)</el-menu-item>
+            <el-menu-item index="/genotyping" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/genotyping">分型(一种特殊的递归)</el-menu-item>
         </el-sub-menu>
-        <el-sub-menu index="3-8" style="background-image:url('../../public/前端页面资源/bgc/bgcMain16.gif');">
+        <el-sub-menu index="3-8" style="background-image:url('../../前端页面资源/bgc/bgcMain16.gif');">
             <template #title>GLSL着色器之shader实战案例</template> 
-            <el-menu-item index="/fire" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fire">火焰效果</el-menu-item>
-            <el-menu-item index="/overlaySpecialEffect" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/overlaySpecialEffect">圆环叠加炫酷特效</el-menu-item>
-            <el-menu-item index="/fiveStarFlag" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fiveStarFlag">五星红旗迎风飘</el-menu-item>
-            <el-menu-item index="/batteryCharge" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/batteryCharge">充电特效</el-menu-item>
-            <el-menu-item index="/rainGlass" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rainGlass">雨夜归家</el-menu-item>
-            <el-menu-item index="/sea" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sea">海水</el-menu-item>
-            <el-menu-item index="/sun" style="background-image:url('../../public/前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sun">我!就是太阳!</el-menu-item>
+            <el-menu-item index="/fire" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fire">火焰效果</el-menu-item>
+            <el-menu-item index="/overlaySpecialEffect" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/overlaySpecialEffect">圆环叠加炫酷特效</el-menu-item>
+            <el-menu-item index="/fiveStarFlag" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/fiveStarFlag">五星红旗迎风飘</el-menu-item>
+            <el-menu-item index="/batteryCharge" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/batteryCharge">充电特效</el-menu-item>
+            <el-menu-item index="/rainGlass" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/rainGlass">雨夜归家</el-menu-item>
+            <el-menu-item index="/sea" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sea">海水</el-menu-item>
+            <el-menu-item index="/sun" style="background-image:url('../../前端页面资源/bgc/bgcMain11.gif');background-position: bottom 50px right 0px;"   route="/sun">我!就是太阳!</el-menu-item>
         </el-sub-menu>      
       </el-sub-menu>
     <el-sub-menu index="5">
@@ -312,7 +312,7 @@
       <el-menu-item route="/LearningScence" index="/LearningScence">学习感受</el-menu-item>
       <el-menu-item route="/TimeLine1" index="/TimeLine1">TimeLine</el-menu-item>
     </el-sub-menu>
-    <el-menu-item index="/ResourceRecommendation" route="/ResourceRecommendation" style="background-image:url('../../public/前端页面资源/bgc/bgcMain4.gif');"><el-icon><Guide /></el-icon>学习资源推荐</el-menu-item>
+    <el-menu-item index="/ResourceRecommendation" route="/ResourceRecommendation" style="background-image:url('../../前端页面资源/bgc/bgcMain4.gif');"><el-icon><Guide /></el-icon>学习资源推荐</el-menu-item>
     <el-menu-item index="7" disabled>
           <el-icon><document /></el-icon>
           <span>未完待续！</span>
@@ -322,7 +322,7 @@
    <div>
       <h1 id="navH1">下滑鼠标中键可查看所有案例~~~</h1>
     <div id='canvasAlert' style="opacity:0.6;z-index:10086;pointer-events:none">
-<el-image style="width: 60.0px; height: 60.0px;position:fixed;left:0px;top:0px" src="../public/前端页面资源/钢铁机器人.png" fit="fill" />
+<el-image style="width: 60.0px; height: 60.0px;position:fixed;left:0px;top:0px" src="../前端页面资源/钢铁机器人.png" fit="fill" />
   </div>
   <canvas ref="webgl" id='EasterEgg' width="1520" height="1470"></canvas>
    </div>
@@ -330,23 +330,23 @@
    
 <div id="alertH1"> 
     <el-image style="margin-bottom:-30px;display:inline-block;
-width: 88px;height:88px;opacity:0.6;z-index:-10;" src="../public/前端页面资源/loading.gif" fit="fill" />
+width: 88px;height:88px;opacity:0.6;z-index:-10;" src="../前端页面资源/loading.gif" fit="fill" />
     <h1 style="display:inline-block;padding-bottom:20px;line-height: 1.8em;"  >正在玩命加载中。。。</h1>
 </div>
 
   
   <!-- 网站icon -->
-  <div class="webgl"><img src="../public/前端页面资源/webgl.png" alt=""></div>
-  <div class="webgis"><img src="../public/前端页面资源/webgis.png" alt=""></div>
+  <div class="webgl"><img src="../前端页面资源/webgl.png" alt=""></div>
+  <div class="webgis"><img src="../前端页面资源/webgis.png" alt=""></div>
   <!-- 1px细线 -->
    <div class="hr"></div>
   <!-- <hr/> -->
   <div class="webglBgc"></div>
   
   <!-- 边框 -->
-<div style="background-image:url('../../public/前端页面资源/bgc/bgcMain19.gif');background-color:red;width:2%;height:96%;position:fixed;left:0px;top:60.2px"></div>
-<div style="background-image:url('../../public/前端页面资源/bgc/bgcMain19.gif');background-color:red;width:100%;height:2%;position:fixed;left:0px;bottom:0px"></div>
-<div style="background-image:url('../../public/前端页面资源/bgc/bgcMain19.gif');background-color:red;width:2%;height:90%;position:fixed;right:0px;top:60.2px"></div>
+<div style="background-image:url('../../前端页面资源/bgc/bgcMain19.gif');background-color:red;width:2%;height:96%;position:fixed;left:0px;top:60.2px"></div>
+<div style="background-image:url('../../前端页面资源/bgc/bgcMain19.gif');background-color:red;width:100%;height:2%;position:fixed;left:0px;bottom:0px"></div>
+<div style="background-image:url('../../前端页面资源/bgc/bgcMain19.gif');background-color:red;width:2%;height:90%;position:fixed;right:0px;top:60.2px"></div>
     </div>
 </template>
 <script lang='ts' setup>
@@ -795,7 +795,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../public/webGL资源/科比.jpg'
+img.src='../../../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)
@@ -891,7 +891,7 @@ return program
   left: 0px;
   top:0px;
   background-color: #303133;
-  background-image:url('../../public/前端页面资源/bgc/bgcMain4.gif');
+  background-image:url('../../前端页面资源/bgc/bgcMain4.gif');
   width: 160px;
   height: 59.3px;
   cursor: pointer;

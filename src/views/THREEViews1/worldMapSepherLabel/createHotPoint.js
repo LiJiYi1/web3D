@@ -1,8 +1,8 @@
 import * as THREE from 'three'
 //点的贴图
-const texture=new THREE.TextureLoader().load('../../../public/地球大屏可视化资源/贴图.png')
+const texture=new THREE.TextureLoader().load('../../../地球大屏可视化资源/贴图.png')
 //光柱的贴图
-const texture1=new THREE.TextureLoader().load('../../../public/地球大屏可视化资源/光柱.png')
+const texture1=new THREE.TextureLoader().load('../../../地球大屏可视化资源/光柱.png')
 function createHotPoint(x,y,z,hot,herf){
 let color
 if(hot>150){

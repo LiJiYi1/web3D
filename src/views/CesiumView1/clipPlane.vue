@@ -89,7 +89,7 @@ const entity = viewer.entities.add({
     position: position,
     orientation: orientation,
     model: {
-      uri: '../../../public/CesiumBasicSource/轿车.glb',
+      uri: '../../../CesiumBasicSource/轿车.glb',
       scale: 8,
       minimumPixelSize: 100.0,
       clippingPlanes: clippingPlanes,

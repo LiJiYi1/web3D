@@ -75,7 +75,7 @@ mesh.shader=shader
 //mesh.position.y+=25
 scene.add(mesh)
 const spehere=new THREE.SphereGeometry(6,30,30)
-const texture=new THREE.TextureLoader().load('../../public/地球大屏可视化资源/earth.jpg')
+const texture=new THREE.TextureLoader().load('../../地球大屏可视化资源/earth.jpg')
 const material1=new THREE.MeshLambertMaterial({
   map:texture
 })

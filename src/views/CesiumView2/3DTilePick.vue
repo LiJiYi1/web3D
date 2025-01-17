@@ -38,7 +38,7 @@ const viewer=new Cesium.Viewer('cesiumContainer',{
 //viewer.scene.pickTranslucentDepth=true
 viewer.scene.debugShowFramesPerSecond=true
 const tileset = await Cesium.Cesium3DTileset.fromUrl(
-     "../../../public/CesiumBasicSource/3DTile/testm3DTiles.json"
+     "../../../CesiumBasicSource/3DTile/testm3DTiles.json"
 );
 // Mouse over the globe to see the cartographic position
 let handler;

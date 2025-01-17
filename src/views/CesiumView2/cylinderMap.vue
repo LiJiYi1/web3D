@@ -7,7 +7,7 @@
 <script setup>
 import * as Cesium from 'cesium'
 import { onMounted } from 'vue';
-import customCylinder from '../../../public/CesiumBasicSource/Core/customShape/customCylinder.js'
+import customCylinder from '../../../CesiumBasicSource/Core/customShape/customCylinder.js'
 let viewer;
 onMounted(()=>{
 initCesium()
@@ -19,7 +19,7 @@ viewer.entities.add({
 topRadius:1000,
 bottomRadius:0,
 material:new Cesium.ImageMaterialProperty({
-    image:'../../../public/CesiumBasicSource/earthMap.jpg',
+    image:'../../../CesiumBasicSource/earthMap.jpg',
     //transparent:true
 }),
 length:700,
@@ -56,7 +56,7 @@ viewer.scene.primitives.add(new Cesium.Primitive({
   }),
   appearance :new Cesium.EllipsoidSurfaceAppearance({
     material : Cesium.Material.fromType('Image',{
-        image:'../../../public/CesiumBasicSource/earthMap.jpg',
+        image:'../../../CesiumBasicSource/earthMap.jpg',
     }),
 renderState:{
    

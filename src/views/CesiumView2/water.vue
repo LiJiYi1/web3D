@@ -36,8 +36,8 @@ primitive.appearance.material=new Cesium.Material({
     fabric: {
       type:'Water' ,
       uniforms: {
-        specularMap: "../../../public/CesiumBasicSource/earthspec1k.jpg",
-        normalMap: Cesium.buildModuleUrl("../../../public/CesiumBasicSource/normalmap.png"),
+        specularMap: "../../../CesiumBasicSource/earthspec1k.jpg",
+        normalMap: Cesium.buildModuleUrl("../../../CesiumBasicSource/normalmap.png"),
         frequency: 10000.0,
         animationSpeed: 0.01,
         amplitude: 1.0,

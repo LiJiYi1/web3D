@@ -132,7 +132,7 @@ directionalLight.position.set(4,4,1)
 scene.add(directionalLight);
 //加载士兵模型到场景中
 const Loader=new GLTFLoader()
-Loader.load('../../public/初级篇学习资源/士兵.glb',(gltf)=>{
+Loader.load('../../初级篇学习资源/士兵.glb',(gltf)=>{
     console.log(gltf.animations);
     const mixer=new THREE.AnimationMixer(gltf.scene)
     const animate=mixer.clipAction(gltf.animations[1])
@@ -146,7 +146,7 @@ Loader.load('../../public/初级篇学习资源/士兵.glb',(gltf)=>{
     scene.add(gltf.scene)
 })
 
-Loader.load('../../public/初级篇学习资源/机械装配动画.glb',(gltf)=>{
+Loader.load('../../初级篇学习资源/机械装配动画.glb',(gltf)=>{
     const mixer=new THREE.AnimationMixer(gltf.scene)
     console.log(gltf.animations);
     const animate= mixer.clipAction(gltf.animations[0])
@@ -202,7 +202,7 @@ change.add(obj,'t2',0,1).name('变粗').onChange((value)=>{
     mesh1.morphTargetInfluences[1]=value
 })
 //加载鸟模型
-Loader.load('../../public/初级篇学习资源/鸟.glb',(gltf)=>{
+Loader.load('../../初级篇学习资源/鸟.glb',(gltf)=>{
     const mixer=new THREE.AnimationMixer(gltf.scene)
     const animate=mixer.clipAction(gltf.animations[0])
     animate.play()
@@ -218,7 +218,7 @@ Loader.load('../../public/初级篇学习资源/鸟.glb',(gltf)=>{
 //创建一个Floader折叠框子，用来调节人
 const person=gui.addFolder('调节人的体型')
 //加载人模型
-Loader.load('../../public/初级篇学习资源/人.glb',(gltf)=>{
+Loader.load('../../初级篇学习资源/人.glb',(gltf)=>{
     // console.log(gltf.scene.children[0].morphTargetDictionary);
     gltf.scene.position.set(100,0,0)
     scene.add(gltf.scene)
@@ -275,7 +275,7 @@ gu.add(Bone1.rotation,'x',0,Math.PI)
 gu.add(Bone2.rotation,'x',0,Math.PI)
 
 const solider=gui.addFolder('士兵')
-Loader.load('../../public/初级篇学习资源/士兵.glb',(gltf)=>{
+Loader.load('../../初级篇学习资源/士兵.glb',(gltf)=>{
 gltf.scene.position.set(10,0,0)
 const skeletonHelper = new THREE.SkeletonHelper(gltf.scene);
 scene.add(skeletonHelper)

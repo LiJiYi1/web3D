@@ -7,7 +7,7 @@ import config  from './config'
     const Loader = new THREE.FileLoader()
     Loader.setResponseType('json')
    
-    const data=await Loader.loadAsync('../../../public/地球大屏可视化资源/worldZh.json')
+    const data=await Loader.loadAsync('../../../地球大屏可视化资源/worldZh.json')
     //创建数组存储处理过的边界数组方便合并线
     const newArr = []
     const featrues = data.features

@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
 function createFlame(){
 //创建贴图
-const texture = new THREE.TextureLoader().load('../../../public/粮仓资源/火焰.png')
+const texture = new THREE.TextureLoader().load('../../../粮仓资源/火焰.png')
 //设置纹理重复
 texture.repeat.set(1/15, 1)
 texture.wrapS = THREE.RepeatWrapping;

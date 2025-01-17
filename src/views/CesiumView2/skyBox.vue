@@ -12,12 +12,12 @@ onMounted(()=>{
 initCesium()
 viewer.scene.skyBox = new Cesium.SkyBox({
   sources : {
-    positiveX : '../../../public/环境贴图/环境贴图3/px.jpg',
-    negativeX : '../../../public/环境贴图/环境贴图3/nx.jpg',
-    positiveY : '../../../public/环境贴图/环境贴图3/py.jpg',
-    negativeY : '../../../public/环境贴图/环境贴图3/ny.jpg',
-    positiveZ : '../../../public/环境贴图/环境贴图3/pz.jpg',
-    negativeZ : '../../../public/环境贴图/环境贴图3/nz.jpg'
+    positiveX : '../../../环境贴图/环境贴图3/px.jpg',
+    negativeX : '../../../环境贴图/环境贴图3/nx.jpg',
+    positiveY : '../../../环境贴图/环境贴图3/py.jpg',
+    negativeY : '../../../环境贴图/环境贴图3/ny.jpg',
+    positiveZ : '../../../环境贴图/环境贴图3/pz.jpg',
+    negativeZ : '../../../环境贴图/环境贴图3/nz.jpg'
   }
 });
 })

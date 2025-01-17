@@ -4,7 +4,7 @@ import wallopaque_fragmentGlsl from './shader/wallopaque_fragment.glsl'
 import wallopaque_fragmentGlsl1 from './shader/wallopaque_fragment.glsl1'
 const loader = new THREE.FileLoader()
 loader.setResponseType('json')
-const data = await loader.loadAsync('../../../public/智慧城市资源/上海/上海0.02.json')
+const data = await loader.loadAsync('../../../智慧城市资源/上海/上海0.02.json')
 const features = data.features;
 //创建一个数组存储经纬度值
 const lonArr=[]
@@ -126,7 +126,7 @@ wallGeometry.attributes.position=new THREE.BufferAttribute(new Float32Array(PosA
 //wallGeometry.attributes.transparent=new THREE.BufferAttribute(new Float32Array(transparent),1)
 //wallGeometry.attributes.uv=new THREE.BufferAttribute(new Float32Array(uv),2)
 wallGeometry.index=new THREE.BufferAttribute(new Uint8Array(index),1)
-//const texture=new THREE.TextureLoader().load('../../../public/智慧城市资源/渐变.png')
+//const texture=new THREE.TextureLoader().load('../../../智慧城市资源/渐变.png')
 const material=new THREE.MeshLambertMaterial({
     transparent:true,
     side:THREE.DoubleSide,
@@ -170,7 +170,7 @@ const wall=new THREE.Mesh(wallGeometry,material)
 const streamLightGeometry = new THREE.BufferGeometry()
 streamLightGeometry.attributes.position = new THREE.BufferAttribute(new Float32Array(PosArr1), 3)
 streamLightGeometry.attributes.uv=new THREE.BufferAttribute(new Float32Array(uv),2)
-const texture1=new THREE.TextureLoader().load('../../../public/智慧城市资源/流动.png')
+const texture1=new THREE.TextureLoader().load('../../../智慧城市资源/流动.png')
 texture1.wrapS=THREE.RepeatWrapping
 texture1.wrapT=THREE.RepeatWrapping
 texture1.repeat.set(18,1)
@@ -184,7 +184,7 @@ const material1 = new THREE.MeshLambertMaterial({
 const streamLightGeometry1 = new THREE.BufferGeometry()
 streamLightGeometry1.attributes.position = new THREE.BufferAttribute(new Float32Array(PosArr1), 3)
 streamLightGeometry1.attributes.uv = new THREE.BufferAttribute(new Float32Array(uv), 2)
-const texture2 = new THREE.TextureLoader().load('../../../public/智慧城市资源/流光.png')
+const texture2 = new THREE.TextureLoader().load('../../../智慧城市资源/流光.png')
 texture2.wrapS = THREE.RepeatWrapping
 texture2.wrapT = THREE.RepeatWrapping
 texture2.repeat.set(8, 2)

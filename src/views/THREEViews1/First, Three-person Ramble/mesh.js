@@ -11,7 +11,7 @@ model.add(cameraGroup)
 const loader=new GLTFLoader()
 //创建一个动画对象，把所有动画都放进去
 const Animations = {}
-loader.load('../../../public/几何计算资源/人.glb',(gltf)=>{
+loader.load('../../../几何计算资源/人.glb',(gltf)=>{
     // console.log('gltf',gltf);
     //创建mixer播放动画
     const mixer = new THREE.AnimationMixer(gltf.scene)

@@ -8,7 +8,7 @@ const model=new THREE.Group()
 //纹理加载器
 const textureLoader=new THREE.TextureLoader()
 //环境纹理贴图加载器
-const cubeTexture = new THREE.CubeTextureLoader().setPath('../../../public/环境贴图/环境贴图2/').load([
+const cubeTexture = new THREE.CubeTextureLoader().setPath('../../../环境贴图/环境贴图2/').load([
         'px.jpg',
         'nx.jpg',
         'py.jpg',
@@ -18,7 +18,7 @@ const cubeTexture = new THREE.CubeTextureLoader().setPath('../../../public/环�
     ]);
 //创建一个包围盒来测模型大小
 const BOX=new THREE.Box3()
-loader.load('../../../public/汽车产品展示资源/gltf/轿车.glb',(gltf)=>{
+loader.load('../../../汽车产品展示资源/gltf/轿车.glb',(gltf)=>{
     //用包围盒看一下模型的大小。
     BOX.expandByObject(gltf.scene)
     // console.log(BOX);
@@ -29,7 +29,7 @@ loader.load('../../../public/汽车产品展示资源/gltf/轿车.glb',(gltf)=>{
             //给轮胎设置法线贴图
             if(obj.name.slice(0,2)==='轮胎'){
                 // console.log(obj.material);
-                obj.material.normalMap=textureLoader.load('../../../public/汽车产品展示资源/没有办法导出法线贴图的轿车/Tyre_Normal.png')   
+                obj.material.normalMap=textureLoader.load('../../../汽车产品展示资源/没有办法导出法线贴图的轿车/Tyre_Normal.png')   
             }
             //金属材质设置金属度和粗糙度
             if(obj.name.slice(0,4)==='高光金属'){

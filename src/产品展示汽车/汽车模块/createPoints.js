@@ -4,7 +4,7 @@ function createPoint(model){
 //利用for循环创建一个精灵图数组,存放一堆精灵图
 const material=new THREE.SpriteMaterial()
 const textureLoader=new THREE.TextureLoader()
-const texture=textureLoader.load('../../../public/汽车产品展示资源/光点.png')
+const texture=textureLoader.load('../../../汽车产品展示资源/光点.png')
 material.map=texture
 for(let i=0;i<5;i++){
 const sprite=new THREE.Sprite(material)
