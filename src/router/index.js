@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 const THREE = () => import('../components/THREEIntroduction.vue')
 const Cesium = () => import('../components/CesiumIntroduction.vue')
 const webGLImportance=()=>import('../components/webGLImportance.vue')
@@ -228,7 +228,7 @@ const divideScreen = () => import('@/views/CesiumView1/divideScreen.vue')
 const cluster=()=>import('@/views/CesiumView/cluster.vue')
 const InundationAnalysis=()=>import('@/views/CesiumView1/InundationAnalysis.vue')
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history:createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
      {
       path: '/THREEIntroduction',
