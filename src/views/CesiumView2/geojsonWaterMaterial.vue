@@ -43,14 +43,14 @@ WaterMaterialProperty.prototype.equals = function(other) {
 }
 //Cesium.Material.PolygonWaterType = 'PolygonWater';
 let m = Cesium.Material._materialCache.getMaterial("Water");
-m.fabric.uniforms.normalMap = Cesium.buildModuleUrl('../../../CesiumBasicSource/normalmap.png');
+m.fabric.uniforms.normalMap = Cesium.buildModuleUrl('/../CesiumBasicSource/normalmap.png');
 //使用自定义参数
 m.fabric.uniforms.animationSpeed = 0.01;
 m.fabric.uniforms.amplitude = 100.0;
 m.fabric.uniforms.frequency = 1000;
 Cesium.Material._materialCache.addMaterial('PolygonWater', m);
 
-const promise=Cesium.GeoJsonDataSource.load('../../../CesiumBasicSource/polygon.json', {
+const promise=Cesium.GeoJsonDataSource.load('/../CesiumBasicSource/polygon.json', {
   stroke: Cesium.Color.HOTPINK,
   fill: Cesium.Color.PINK,
   strokeWidth: 3,

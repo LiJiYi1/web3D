@@ -36,7 +36,7 @@ const viewer=new Cesium.Viewer('cesiumContainer',{
 })
 viewer.scene.debugShowFramesPerSecond=true
 const tileset = await Cesium.Cesium3DTileset.fromUrl(
-     "../../../CesiumBasicSource/3DTile/testm3DTiles.json",{
+     "/../CesiumBasicSource/3DTile/testm3DTiles.json",{
                 customShader: new Cesium.CustomShader({
                 lightingModel: Cesium.LightingModel.PBR,
                 fragmentShaderText: `

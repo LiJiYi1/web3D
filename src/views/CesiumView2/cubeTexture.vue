@@ -17,7 +17,7 @@ viewer.entities.add({
     box:{
         dimensions:new Cesium.Cartesian3(100000,100000,100000),
         material:new Cesium.ImageMaterialProperty({
-            image:'../../../CesiumBasicSource/kebi.jpg'
+            image:'/../CesiumBasicSource/kebi.jpg'
         })
     }
 })
@@ -29,7 +29,7 @@ viewer.entities.add({
         plane:new Cesium.Plane(Cesium.Cartesian3.UNIT_X, 0.0),
         dimensions:new Cesium.Cartesian2(100000,100000),
         material:new Cesium.ImageMaterialProperty({
-            image:'../../../CesiumBasicSource/kebi.jpg'
+            image:'/../CesiumBasicSource/kebi.jpg'
         })
     }
 })
@@ -41,7 +41,7 @@ viewer.entities.add({
         plane:new Cesium.Plane(Cesium.Cartesian3.UNIT_X, 0.0),
         dimensions:new Cesium.Cartesian2(100000,100000),
         material:new Cesium.ImageMaterialProperty({
-            image:'../../../CesiumBasicSource/earthspec1k.jpg'
+            image:'/../CesiumBasicSource/earthspec1k.jpg'
         })
     }
 })
@@ -53,7 +53,7 @@ viewer.entities.add({
         plane:new Cesium.Plane(Cesium.Cartesian3.UNIT_X, 0.0),
         dimensions:new Cesium.Cartesian2(100000,100000),
         material:new Cesium.ImageMaterialProperty({
-            image:'../../../几何计算资源/乒乓球.png'
+            image:'/../几何计算资源/乒乓球.png'
         })
     }
 })
@@ -67,7 +67,7 @@ viewer.entities.add({
         topRadius:100000,
         bottomRadius:100000,
         material:new Cesium.ImageMaterialProperty({
-            image:'../../../CesiumBasicSource/earthspec1k.jpg'
+            image:'/../CesiumBasicSource/earthspec1k.jpg'
         })
     }
 })

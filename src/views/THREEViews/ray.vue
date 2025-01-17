@@ -110,7 +110,7 @@ console.log(intersect);
 //     intersect[0].object.material.color.set(0xff0000);
 // }
 const loader=new THREE.TextureLoader()
-const texture=loader.load('../../初级篇学习资源/光点.png')
+const texture=loader.load('/初级篇学习资源/光点.png')
 //创建一个光点精灵图
 const spriteMaterial=new THREE.SpriteMaterial({
           map:texture

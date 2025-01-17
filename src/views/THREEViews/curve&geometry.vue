@@ -336,7 +336,7 @@ const meshbuff=new THREE.Mesh(BUFF,materialbuff)
 scene.add(meshbuff)
 //加载gltf
 const LOAD=new GLTFLoader()
-LOAD.load('../../初级篇学习资源/建筑模型.gltf',function(gltf){
+LOAD.load('/初级篇学习资源/建筑模型.gltf',function(gltf){
     gltf.scene.traverse((obj)=>{
         if(obj.isMesh){
             const edges = new THREE.EdgesGeometry( obj.geometry );
@@ -407,7 +407,7 @@ const curveObjectYang1 = new THREE.Line( geometryb, materialYang );
 scene.add(curveObjectYang1)
 //加载外部模型
 const GLTFLoader1=new GLTFLoader()
-GLTFLoader1.load('../../初级篇学习资源/地形.glb',(gltf)=>{
+GLTFLoader1.load('/初级篇学习资源/地形.glb',(gltf)=>{
     console.log(gltf.scene.children[0]);
     const terrian=gltf.scene.children[0]
     terrian.position.x-=700

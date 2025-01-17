@@ -12,7 +12,7 @@ const labelGroup = new THREE.Group()
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
 //加载点数据
-Loader.load('../../../地图大屏可视化资源/微博签到数据.json',(data)=>{
+Loader.load('/../地图大屏可视化资源/微博签到数据.json',(data)=>{
     const coordinate=data.coordinates
     const arr=[]
     for(let i=0;i<coordinate.length;i+=2){ 
@@ -22,7 +22,7 @@ Loader.load('../../../地图大屏可视化资源/微博签到数据.json',(data
     point.position.z+=1.4
     model.add(point)
 })
-Loader.load('../../../地图大屏可视化资源/china详细.json', (data) => {
+Loader.load('/../地图大屏可视化资源/china详细.json', (data) => {
     const features = data.features
     features.forEach((ele) => {
         const name = ele.properties.name

@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 const loader=new THREE.TextureLoader()
-const texture=loader.load('../../../地图大屏可视化资源/贴图.png')
+const texture=loader.load('/../地图大屏可视化资源/贴图.png')
 function createPoint(x,y,z){
 const plane=new THREE.PlaneGeometry(0.7,0.7)
 const material=new THREE.MeshBasicMaterial({

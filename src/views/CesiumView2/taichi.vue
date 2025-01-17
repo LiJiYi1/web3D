@@ -36,7 +36,7 @@ viewer.entities.add({
             return y
        }, false),
        material:new Cesium.ImageMaterialProperty({
-        image:'../../../CesiumBasicSource/taiji.jpg',
+        image:'/../CesiumBasicSource/taiji.jpg',
         color:new Cesium.CallbackProperty(function(){
         if(color>=0)color-=0.01
         else{

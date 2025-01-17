@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 const Loader=new THREE.TextureLoader()
-const texture=Loader.load('../../../地图大屏可视化资源/贴图.png')
+const texture=Loader.load('/../地图大屏可视化资源/贴图.png')
 function createCircle(x,y){
 const geometry=new THREE.PlaneGeometry(1,1)
 const material=new THREE.MeshBasicMaterial({

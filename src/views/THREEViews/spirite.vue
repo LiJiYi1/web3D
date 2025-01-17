@@ -63,7 +63,7 @@ const axesHelper=new THREE.AxesHelper(180,180,180)
  scene.add(axesHelper);
 //创建并加载纹理
 const TextureLoader=new THREE.TextureLoader()
-const texture=TextureLoader.load('../../初级篇学习资源/雨滴.png')
+const texture=TextureLoader.load('/初级篇学习资源/雨滴.png')
 //创建点精灵的材质
 const material=new THREE.SpriteMaterial({
     map:texture

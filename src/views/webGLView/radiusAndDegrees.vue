@@ -83,7 +83,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../webGL资源/科比.jpg'
+img.src='/../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

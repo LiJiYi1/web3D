@@ -17,7 +17,7 @@ model.add(Circle)
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
 //加载地球边界线资源
-Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
+Loader.load('/../地球大屏可视化资源/world.json',(data)=>{
     const features=data.features
     //把点的数组处理一下生成一个新的数组才能实现数组合并
     const newArr = []
@@ -61,7 +61,7 @@ Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
    
 })
 const loader=new THREE.TextureLoader()
-const map=loader.load('../../../地球大屏可视化资源/earth (12).png')
+const map=loader.load('/../地球大屏可视化资源/earth (12).png')
 const sphere = new THREE.SphereGeometry(R, 32, 32)
 const material=new THREE.MeshLambertMaterial({
     transparent:true,

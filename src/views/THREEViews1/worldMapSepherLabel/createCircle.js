@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 //光圈的贴图
-const texture2 = new THREE.TextureLoader().load('../../../地球大屏可视化资源/标注光圈.png')
+const texture2 = new THREE.TextureLoader().load('/../地球大屏可视化资源/标注光圈.png')
 function createCircle(x,y,z,hot){
     let color
     if (hot > 150) {

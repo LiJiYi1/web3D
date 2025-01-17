@@ -1,13 +1,13 @@
 <template>
 
   <el-scrollbar height="86%" style="margin-left:2%;">
-  <el-card style="background-image:url('../../前端页面资源/bgc/bgcMain10.gif');min-width:220px;max-width: 220px;margin-top:45px;margin-right:2%;float:right;opacity:0.9;background-color:#363434;width:30%">
+  <el-card style="background-image:url('/前端页面资源/bgc/bgcMain10.gif');min-width:220px;max-width: 220px;margin-top:45px;margin-right:2%;float:right;opacity:0.9;background-color:#363434;width:30%">
     <template #header><p>THREE.JS介绍</p></template>
     <img
-      src="../../前端页面资源/THREEIcon1.jpg"
+      src="/前端页面资源/THREEIcon1.jpg"
       style="width: 100%;opacity:0.5"
     />
-  <el-card style="background-image:url('../../前端页面资源/bgc/bgcMain4.gif');max-width: 100%;background-color:#363434;" >
+  <el-card style="background-image:url('/前端页面资源/bgc/bgcMain4.gif');max-width: 100%;background-color:#363434;" >
     <p style="opacity:1.0"><a style="color: yellow;" href="http://www.yanhuangxueyuan.com/threejs/docs/index.html#api/zh/animation/AnimationAction" target="_blank">THREE.JS手册</a></p>
   </el-card>
 
@@ -248,7 +248,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../../webGL资源/科比.jpg'
+img.src='/../webGL资源/科比.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

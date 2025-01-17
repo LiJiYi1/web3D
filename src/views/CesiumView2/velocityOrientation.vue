@@ -46,7 +46,7 @@ const entity = viewer.entities.add({
 //     }),
 //    ]),
   model: {
-    uri: "../../../CesiumBasicSource/无人机居中.glb",
+    uri: "/../CesiumBasicSource/无人机居中.glb",
     //minimumPixelSize: 64,
   },
   //viewFrom:new Cesium.Cartesian3(-100.0, 0.0, 100.0),

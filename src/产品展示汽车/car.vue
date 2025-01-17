@@ -2,24 +2,24 @@
   <div id="container" ref="container">
     <div id="rotateAudio">
       <div id="rotate">
-        <img ref="rotation" id="rotateimg" src="../../汽车产品展示资源/停止旋转.png" alt="" width="24" style="vertical-align: middle;" @click="rotate()">
+        <img ref="rotation" id="rotateimg" src="/汽车产品展示资源/停止旋转.png" alt="" width="24" style="vertical-align: middle;" @click="rotate()">
       </div>
       <div id="audio" style="margin-top: 20px;">
-       <img ref="backgroundMusic" id="audioimg" src="../../汽车产品展示资源/关闭声音.png" alt="" width="24" style="vertical-align: middle;" @click="bgm()">
+       <img ref="backgroundMusic" id="audioimg" src="/汽车产品展示资源/关闭声音.png" alt="" width="24" style="vertical-align: middle;" @click="bgm()">
       </div>
       <div id="light" style="margin-top: 20px;">
-       <img ref="light" id="lightimg" src="../../汽车产品展示资源/关车灯.png" alt="" width="24" style="vertical-align: middle;" @click="lights()">
+       <img ref="light" id="lightimg" src="/汽车产品展示资源/关车灯.png" alt="" width="24" style="vertical-align: middle;" @click="lights()">
       </div>
     </div>
     <div id="color" style="">
-    <div class="colorChoose" id="color1"><img src="../../汽车产品展示资源/颜色选择/绿.jpg" @click="green()"></div>
-    <div class="colorChoose" id="color2"><img src="../../汽车产品展示资源/颜色选择/灰.jpg" @click="gray()"></div>
-    <div class="colorChoose" id="color3"><img src="../../汽车产品展示资源/颜色选择/红.jpg" @click="red()"></div>
-    <div class="colorChoose" id="color4"><img src="../../汽车产品展示资源/颜色选择/黑.jpg" @click="black()"></div>
-    <div class="colorChoose" id="color5"><img src="../../汽车产品展示资源/颜色选择/白.jpg" @click="white()"></div>
+    <div class="colorChoose" id="color1"><img src="/汽车产品展示资源/颜色选择/绿.jpg" @click="green()"></div>
+    <div class="colorChoose" id="color2"><img src="/汽车产品展示资源/颜色选择/灰.jpg" @click="gray()"></div>
+    <div class="colorChoose" id="color3"><img src="/汽车产品展示资源/颜色选择/红.jpg" @click="red()"></div>
+    <div class="colorChoose" id="color4"><img src="/汽车产品展示资源/颜色选择/黑.jpg" @click="black()"></div>
+    <div class="colorChoose" id="color5"><img src="/汽车产品展示资源/颜色选择/白.jpg" @click="white()"></div>
     </div>
     <div id="colorChange" class="colorChange">
-       <img id="colorChageImg" src="../../汽车产品展示资源/变色.png" alt="" @click="colorAnimate()">
+       <img id="colorChageImg" src="/汽车产品展示资源/变色.png" alt="" @click="colorAnimate()">
     </div>
   </div>
 </template>
@@ -41,12 +41,12 @@ let isRotate=null
 let islight=null
 function bgm(){
  if(haveBGM==='open'){
- backgroundMusic.value.src='../../汽车产品展示资源/关闭声音.png'
+ backgroundMusic.value.src='/汽车产品展示资源/关闭声音.png'
  backGround.pause()
  haveBGM='close'
  }
  else{
- backgroundMusic.value.src='../../汽车产品展示资源/打开声音.png'
+ backgroundMusic.value.src='/汽车产品展示资源/打开声音.png'
  backGround.play()
  haveBGM='open'
  }
@@ -54,25 +54,25 @@ function bgm(){
 function rotate(){
 if(isRotate==='rotate'){
 isRotate='stopRotate'
-rotation.value.src='../../汽车产品展示资源/停止旋转.png'
+rotation.value.src='/汽车产品展示资源/停止旋转.png'
 Rotate.rotate=false
 }
 else{
   isRotate='rotate'
-  rotation.value.src='../../汽车产品展示资源/旋转.png'
+  rotation.value.src='/汽车产品展示资源/旋转.png'
   Rotate.rotate=true
 }
 }
 function lights(){
 if(islight==='close'){
-light.value.src='../../汽车产品展示资源/开车灯.png'
+light.value.src='/汽车产品展示资源/开车灯.png'
 openLight()
 islight='open'
 directLight1.intensity=0.2
 directLight2.intensity=0.2
 }
 else{
-  light.value.src='../../汽车产品展示资源/关车灯.png'
+  light.value.src='/汽车产品展示资源/关车灯.png'
   closeLight()
   islight='close'
   directLight1.intensity=1

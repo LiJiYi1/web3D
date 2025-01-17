@@ -10,7 +10,7 @@ import { onMounted } from 'vue';
 onMounted(()=>{
 const viewer=initCesium()
 
-const promise=Cesium.GeoJsonDataSource.load('../../../CesiumBasicSource/province.json', {
+const promise=Cesium.GeoJsonDataSource.load('/../CesiumBasicSource/province.json', {
    stroke: Cesium.Color.GREEN,
    fill: Cesium.Color.RED,
    strokeWidth: 3,
@@ -20,7 +20,7 @@ const promise=Cesium.GeoJsonDataSource.load('../../../CesiumBasicSource/province
     const entities=data._entityCollection._entities._array
     entities.forEach(e=>{
         const name=e._name
-        e._billboard._image._value='../../../CesiumBasicSource/科比(1).jpg'
+        e._billboard._image._value='/../CesiumBasicSource/科比(1).jpg'
         e._label=new Cesium.LabelGraphics({
             text:name
         })

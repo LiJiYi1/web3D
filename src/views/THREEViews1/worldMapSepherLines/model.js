@@ -9,7 +9,7 @@ const model=new THREE.Group()
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
 //加载地球边界线资源
-Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
+Loader.load('/../地球大屏可视化资源/world.json',(data)=>{
     const features=data.features
     //把点的数组处理一下生成一个新的数组才能实现数组合并
     const newArr = []
@@ -53,14 +53,14 @@ Loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
    
 })
 const loader=new THREE.TextureLoader()
-const map=loader.load('../../../地球大屏可视化资源/earth (12).png')
+const map=loader.load('/../地球大屏可视化资源/earth (12).png')
 const sphere = new THREE.SphereGeometry(R, 32, 32)
 const material=new THREE.MeshLambertMaterial({
     transparent:true,
     map
 })
 //加载铁路线资源GeoJSON
-Loader.load('../../../地球大屏可视化资源/铁路线.json',(data)=>{
+Loader.load('/../地球大屏可视化资源/铁路线.json',(data)=>{
     //创建数组存储处理过的点方便用lineSegment渲染
     const newArr=[]
     const features=data.features

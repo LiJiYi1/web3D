@@ -15,7 +15,7 @@ const Ramp=new Cesium.Material({
   fabric: {
     type: 'ElevationRamp',
     uniforms: {
-image: '../../../CesiumBasicSource/color.png',
+image: '/../CesiumBasicSource/color.png',
 minimumHeight: 0,
 maximumHeight: 1400
     }

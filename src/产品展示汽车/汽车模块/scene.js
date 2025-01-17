@@ -1,6 +1,6 @@
 import * as THREE  from 'three'
 import { model } from './gltf.js'
-const cubeTexture = new THREE.CubeTextureLoader().setPath('../../../环境贴图/环境贴图1/').load([
+const cubeTexture = new THREE.CubeTextureLoader().setPath('/../环境贴图/环境贴图1/').load([
     'px.jpg',
     'nx.jpg',
     'py.jpg',
@@ -28,7 +28,7 @@ const mesh = new THREE.Mesh(land, material)
 mesh.rotateX(-Math.PI/2)
 scene.add(mesh)
 //给这个地面添加纹理
-const texture=new THREE.TextureLoader().load('../../../汽车产品展示资源/瓷砖.jpg')
+const texture=new THREE.TextureLoader().load('/../汽车产品展示资源/瓷砖.jpg')
 //纹理重复
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping

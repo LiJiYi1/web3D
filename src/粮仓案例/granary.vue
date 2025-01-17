@@ -3,16 +3,16 @@
     <div id="messageTag" style="position: absolute;width:500px;height:200px;color: #fff;z-index: 2;font-size: 16px;visibility:hidden" ref="tag">
     <div style="position:relative;">
       <div style="position: absolute;left: 0px;top: 0px;">
-        <img src="../../粮仓资源/信息背景.png" alt="" style="width:400px;opacity: 1.0;">
+        <img src="/粮仓资源/信息背景.png" alt="" style="width:400px;opacity: 1.0;">
       </div>
       <div id="granaryName" style="position:absolute;left:25px;top:40px;font-size:16px" ref="tag1">平房仓 P_01</div>
       <div style="position:absolute;left:290px;top:25px">
-        <img src="../../粮仓资源/温度.png" alt="" style="width:50px;">
+        <img src="/粮仓资源/温度.png" alt="" style="width:50px;">
       </div>
       <div id="temperature" style="position:absolute;left:330px;top:40px">19℃</div>
       <div id="grain" style="position:absolute;left:170px;top:50px">红豆(吨)</div>
       <div style="position:absolute;left:80px;top:85px;font-size:60px;color:#00ffff;vertical-align:middle">
-        <img id="grainImg" src="../../粮仓资源/豆子/红豆.png" alt="" style="width:60px;">
+        <img id="grainImg" src="/粮仓资源/豆子/红豆.png" alt="" style="width:60px;">
       </div>
       <div ref="weight" id="weight" style="position:absolute;left:155px;top:80px;font-size:60px;color:#00ffff;vertical-align:middle">
         3600 t</div>

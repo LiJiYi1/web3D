@@ -3,12 +3,12 @@
     <!-- CSS布局方式写法很多，不一定和课程一致 -->
     <div  id="tag" ref="tag" style="display:none">
          <div ref="close" style="position:absolute;left:350px;top:20px;"  @click="Planclose">
-                <img  id="close" src="../../../初级篇学习资源/关闭.png" width="32" style="pointer-events: auto;" >
+                <img  id="close" src="/../初级篇学习资源/关闭.png" width="32" style="pointer-events: auto;" >
             </div>
         <!-- position:relative;约束子元素绝对定位参照点 -->
         <div style="position:relative;width:400px;height:322px;color: #fff;">
             <!-- 图片绝对定位100%填充父元素，作为标签的背景 -->
-            <img src="../../../初级篇学习资源/信息背景.png" alt="" style="width:100%;position: absolute;left: 0px;top: 0px;">
+            <img src="/../初级篇学习资源/信息背景.png" alt="" style="width:100%;position: absolute;left: 0px;top: 0px;">
 
             <!-- 名称、存储量、设备状态、等信息叠加到背景图上即可 -->
             <div style="position:absolute;left:48px;top:36px;font-size:16px;">
@@ -272,7 +272,7 @@ const light = new THREE.AmbientLight( 0x404040,1); // 柔和的白光
 scene.add( light );
 //创建环境贴图
 const cubeTexture=new THREE.CubeTextureLoader()
-    .setPath('../../环境贴图/环境贴图1/')
+    .setPath('/环境贴图/环境贴图1/')
     .load(['px.jpg', 'nx.jpg', 'py.jpg', 'ny.jpg', 'pz.jpg', 'nz.jpg']);
 cubeTexture.encoding = THREE.sRGBEncoding;//和renderer.outputEncoding一致
 
@@ -283,7 +283,7 @@ const obj = {
 gui.add(light,'intensity',0,100).name('环境光强度')
 //加载工厂模型到场景中
 const Loader=new GLTFLoader()
-Loader.load('../../../初级篇学习资源/工厂 copy.glb',(gltf)=>{
+Loader.load('/../初级篇学习资源/工厂 copy.glb',(gltf)=>{
     console.log(gltf.animations);
     const mixer=new THREE.AnimationMixer(gltf.scene)
     const animate=mixer.clipAction(gltf.animations[0])
@@ -380,7 +380,7 @@ shadowFolder.add(cam,'far',0,1000).onChange(function(v){
 });
 //创建并加载纹理
 const TextureLoader=new THREE.TextureLoader()
-const texture=TextureLoader.load('../../../初级篇学习资源/雨滴.png')
+const texture=TextureLoader.load('/../初级篇学习资源/雨滴.png')
 //创建点精灵的材质
 const material=new THREE.SpriteMaterial({
     map:texture

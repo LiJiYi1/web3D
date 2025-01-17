@@ -51,7 +51,7 @@ gl.vertexAttribPointer(uv,2,gl.FLOAT,false,4*5,4*3)
 gl.enableVertexAttribArray(uv)
 //创建纹理图片
 const img=new Image()
-img.src='../../高级篇学习资源/texture.jpg'
+img.src='/高级篇学习资源/texture.jpg'
 img.onload=()=>{
 const texture=gl.createTexture()
 gl.activeTexture(gl.TEXTURE0)

@@ -45,8 +45,8 @@ Cesium.Material._materialCache.addMaterial('PolygonOverlay', {
   fabric: {
     type: 'textureOverlay',
     uniforms: {
-    image1: '../../../CesiumBasicSource/rada.png',
-     image2:'../../../CesiumBasicSource/rada1.png',
+    image1: '/../CesiumBasicSource/rada.png',
+     image2:'/../CesiumBasicSource/rada1.png',
     },
     source: `
 uniform sampler2D image1;

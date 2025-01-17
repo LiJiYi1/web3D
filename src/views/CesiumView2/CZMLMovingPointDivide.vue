@@ -63,14 +63,14 @@ let czml=[
       resolution: 1,
     },
     // billboard: {
-    //   image:"../../../CesiumBasicSource/kebi.jpg",
+    //   image:"/../CesiumBasicSource/kebi.jpg",
     //   scale: 0.2,
     //   eyeOffset: {
     //     cartesian: [0.0, 3.0, -10.0],
     //   },
     // },
     // model:{
-    //   gltf: "../../../CesiumBasicSource/fly.glb",
+    //   gltf: "/../CesiumBasicSource/fly.glb",
     //   //orientation: new Cesium.VelocityOrientationProperty(property),
     // },
     position: {
@@ -147,14 +147,14 @@ let czml1=[
       resolution: 1,
     },
     // billboard: {
-    //   image:"../../../CesiumBasicSource/kebi.jpg",
+    //   image:"/../CesiumBasicSource/kebi.jpg",
     //   scale: 0.2,
     //   eyeOffset: {
     //     cartesian: [0.0, 3.0, -10.0],
     //   },
     // },
     // model:{
-    //   gltf: "../../../CesiumBasicSource/fly.glb",
+    //   gltf: "/../CesiumBasicSource/fly.glb",
     //   //orientation: new Cesium.VelocityOrientationProperty(property),
     // },
     position: {

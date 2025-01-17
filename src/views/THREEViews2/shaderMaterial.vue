@@ -147,7 +147,7 @@ const mesh1=new THREE.Mesh(geometry1,material1)
 //创建第三个几何体
 const geometry2=new THREE.PlaneGeometry(100,100)
 //创建一个贴图
-const texture=new THREE.TextureLoader().load('../../汽车产品展示资源/光点.png')
+const texture=new THREE.TextureLoader().load('/汽车产品展示资源/光点.png')
 const material2=new THREE.ShaderMaterial({
 vertexShader:vs2,
 fragmentShader:fs2,

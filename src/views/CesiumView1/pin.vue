@@ -40,7 +40,7 @@ viewer.entities.add({
 id:'url',
 position:new Cesium.Cartesian3.fromDegrees(119,34.1,0),
 billboard:{
-image:new Cesium.PinBuilder().fromUrl('../../../CesiumBasicSource/rada.png', Cesium.Color.GREEN, 100)
+image:new Cesium.PinBuilder().fromUrl('/../CesiumBasicSource/rada.png', Cesium.Color.GREEN, 100)
 }
 })
 viewer.camera.setView({

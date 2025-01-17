@@ -12,7 +12,7 @@ const columnGroup = new THREE.Group()
 model.add(columnGroup)
 const loader=new THREE.FileLoader()
 loader.setResponseType('json')
-loader.load('../../../地图大屏可视化资源/人口密度.json',(data)=>{
+loader.load('/../地图大屏可视化资源/人口密度.json',(data)=>{
   const population=data.population
   const geometryArr=[]
 const hmax = 97.456
@@ -37,7 +37,7 @@ const column=createColumn(geometryArr)
 model.add(column)
     
 })
-loader.load('../../../地图大屏可视化资源/world.json',(data)=>{
+loader.load('/../地图大屏可视化资源/world.json',(data)=>{
 const features=data.features
 features.forEach((e)=>{
     const geometry=e.geometry

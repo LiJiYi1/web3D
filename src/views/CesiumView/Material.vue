@@ -35,7 +35,7 @@ function GridMaterial(){
 function ImageMaterial(){
     console.log(viewer.entities.getById('box')._box);
     viewer.entities.getById('box')._box.material=new Cesium.ImageMaterialProperty({
-        image:'../../../前端页面资源/image2.jpg'
+        image:'/../前端页面资源/image2.jpg'
     })
     viewer.scene.requestRender()
 }

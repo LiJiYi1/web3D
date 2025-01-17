@@ -11,7 +11,7 @@ import { onMounted } from 'vue';
 onMounted(()=>{
 const viewer=initCesium()
 
-const promise=viewer.dataSources.add(Cesium.GeoJsonDataSource.load('../../../CesiumBasicSource/china.json', {
+const promise=viewer.dataSources.add(Cesium.GeoJsonDataSource.load('/../CesiumBasicSource/china.json', {
    stroke: Cesium.Color.GREEN,
    fill: Cesium.Color.RED,
    strokeWidth: 3,

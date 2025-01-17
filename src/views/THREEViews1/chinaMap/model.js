@@ -12,7 +12,7 @@ const shapeGroup=new THREE.Group()
 shapeGroup.name='地区'
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
-Loader.load('../../../地图大屏可视化资源/china详细.json',(data)=>{
+Loader.load('/../地图大屏可视化资源/china详细.json',(data)=>{
     const features=data.features
     features.forEach((ele)=>{
         //通过geoJSON获得区域形状数据

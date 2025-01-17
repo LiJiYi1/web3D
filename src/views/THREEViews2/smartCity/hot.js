@@ -3,7 +3,7 @@ import cylinderopaque_fragmentGlsl from './shader/cylinderopaque_fragment.glsl'
 const hotGroup=new THREE.Group()
 //创建光圈
 const plane=new THREE.PlaneGeometry(200,200)
-const texture=new THREE.TextureLoader().load('../../../智慧城市资源/标注光圈.png')
+const texture=new THREE.TextureLoader().load('/../智慧城市资源/标注光圈.png')
 const material=new THREE.MeshBasicMaterial({
     transparent:true,
     map:texture,
@@ -18,7 +18,7 @@ hotGroup.add(circle)
 const cylinderGroup=new THREE.Group()
 cylinderGroup.position.set(13524790, 3664199, 556)
 //透明度贴图
-const texture1 = new THREE.TextureLoader().load('../../../智慧城市资源/渐变1.png')
+const texture1 = new THREE.TextureLoader().load('/../智慧城市资源/渐变1.png')
 //棱锥下半部分
 const geometry = new THREE.CylinderGeometry(0, 50, 200, 4);
 geometry.rotateX(-Math.PI/2)
@@ -73,8 +73,8 @@ cylinder3.position.set(13524790, 3664199, 0)
 hotGroup.add(cylinder3)
 //创建一个雷达效果。
 const plane1=new THREE.PlaneGeometry(250,250)
-const texture2=new THREE.TextureLoader().load('../../../智慧城市资源/雷达刻度.png')
-const texture3 = new THREE.TextureLoader().load('../../../智慧城市资源/扫描雷达.png')
+const texture2=new THREE.TextureLoader().load('/../智慧城市资源/雷达刻度.png')
+const texture3 = new THREE.TextureLoader().load('/../智慧城市资源/扫描雷达.png')
 const material4=new THREE.MeshBasicMaterial({
 transparent:true,
 map:texture2,

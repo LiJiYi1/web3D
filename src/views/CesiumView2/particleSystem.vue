@@ -54,7 +54,7 @@ id:'model',
 orientation:Cesium.Quaternion.fromHeadingPitchRoll(new Cesium.HeadingPitchRoll(110,101,100.7)),
 position:Cesium.Cartesian3.fromDegrees(117.16, 32.71, 0),
 model:{
-uri:'../../../CesiumBasicSource/轿车.glb',
+uri:'/../CesiumBasicSource/轿车.glb',
 scale:0.1,
 nodeTransformations:{'后备箱':new Cesium.NodeTransformationProperty({
   translation:new Cesium.Cartesian3(100,2,0)
@@ -64,7 +64,7 @@ nodeTransformations:{'后备箱':new Cesium.NodeTransformationProperty({
  //粒子系统
 viewer.scene.primitives.add(
         new Cesium.ParticleSystem({
-            image: "../../../CesiumBasicSource/kebiParticle.jpg",
+            image: "/../CesiumBasicSource/kebiParticle.jpg",
             startColor: Cesium.Color.RED.withAlpha(1.0),
             endColor: Cesium.Color.WHITE.withAlpha(0.0),
 

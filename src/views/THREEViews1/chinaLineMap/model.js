@@ -13,7 +13,7 @@ const Loader=new THREE.FileLoader()
 model.add(lineGroup)
 Loader.setResponseType('json')
 //加载点数据
-Loader.load('../../../地图大屏可视化资源/公交轨迹.json',(data)=>{
+Loader.load('/../地图大屏可视化资源/公交轨迹.json',(data)=>{
     const coordinate=data.coordinates
     coordinate.forEach((line)=>{
         //把点加工一下成为有x,y,z坐标的点
@@ -27,7 +27,7 @@ Loader.load('../../../地图大屏可视化资源/公交轨迹.json',(data)=>{
     })
     
 })
-Loader.load('../../../地图大屏可视化资源/china详细.json', (data) => {
+Loader.load('/../地图大屏可视化资源/china详细.json', (data) => {
     const features = data.features
     features.forEach((ele) => {
         const name = ele.properties.name

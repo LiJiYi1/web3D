@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { transform } from './transform'
 const model=new THREE.Group()
 const loader=new THREE.TextureLoader()
-const map=loader.load('../../../地球大屏可视化资源/earth.jpg')
+const map=loader.load('/../地球大屏可视化资源/earth.jpg')
 const sphere = new THREE.SphereGeometry(80, 32, 32)
 const material=new THREE.MeshBasicMaterial({
     transparent:true,

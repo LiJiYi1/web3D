@@ -20,13 +20,13 @@ model.add(sphere)
 //加载数据,相当于Ajax请求
 const loader = new THREE.FileLoader()
 loader.setResponseType('json')
-loader.load('../../../地球大屏可视化资源/worldZh.json', (data1) => {
+loader.load('/../地球大屏可视化资源/worldZh.json', (data1) => {
     //创建两个颜色用户颜色混合
     const color1=new THREE.Color(1,0.9,0.9)
     const color2=new THREE.Color(1,0,0)
     //加载GDP数据
-    loader.load('../../../地球大屏可视化资源/gdp.json',(data)=>{
-    loader.load('../../../地球大屏可视化资源/首都经纬度.json',(data2)=>{
+    loader.load('/../地球大屏可视化资源/gdp.json',(data)=>{
+    loader.load('/../地球大屏可视化资源/首都经纬度.json',(data2)=>{
         //创建位置对象
         const posObj=data2
         //创建gdp对象

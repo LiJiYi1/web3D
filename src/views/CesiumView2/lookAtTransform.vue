@@ -45,7 +45,7 @@ const model=new Cesium.Entity({
   id:'model',
   position:position,
   model:{
-    uri:'../../../CesiumBasicSource/无人机居中.glb',
+    uri:'/../CesiumBasicSource/无人机居中.glb',
     scale:100
   },
   orientation: new Cesium.VelocityOrientationProperty(position),

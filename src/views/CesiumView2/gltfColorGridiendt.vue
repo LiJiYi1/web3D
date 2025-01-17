@@ -19,7 +19,7 @@ const position = Cesium.Cartesian3.fromDegrees(123.0744619, 44.0503706, 0);
 const hpr = new Cesium.HeadingPitchRoll(0, 0, 0);
 const fixedFrameTransform = Cesium.Transforms.localFrameToFixedFrameGenerator("north", "west");
 
-let url = "../../../CesiumBasicSource/fly.glb";
+let url = "/../CesiumBasicSource/fly.glb";
 const textureUniformShader = new Cesium.CustomShader({
     uniforms: { },
     fragmentShaderText: `

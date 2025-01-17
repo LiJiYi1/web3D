@@ -117,7 +117,7 @@ const texturedPolygonWithHoles = viewer.entities.add({
     material: new PolylineTrailLinkMaterialProperty({
                 color: Cesium.Color.ORANGE.withAlpha(0.8),
                 duration: 300,
-                imgurl: "../../../CesiumBasicSource/arrow2.jpg"
+                imgurl: "/../CesiumBasicSource/arrow2.jpg"
             })
     },
 });

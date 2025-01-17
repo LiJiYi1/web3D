@@ -5,7 +5,7 @@ const boxGroup = new THREE.Group()
 //加载数据
 const Loader=new THREE.FileLoader()
 Loader.setResponseType('json')
-Loader.load('../../../地图大屏可视化资源/china.json',(data)=>{
+Loader.load('/../地图大屏可视化资源/china.json',(data)=>{
 // console.log(data.features);
 data.features.forEach(ele => {
     //  console.log(ele.properties);

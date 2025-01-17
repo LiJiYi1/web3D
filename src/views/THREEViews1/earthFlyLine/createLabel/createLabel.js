@@ -2,9 +2,9 @@ import * as THREE from 'three'
 import { transform } from '../transform'
 import config from '../config'
 //创建点贴图
-const texture1=new THREE.TextureLoader().load('../../../../地球大屏可视化资源/贴图.png')
+const texture1=new THREE.TextureLoader().load('//地球大屏可视化资源/贴图.png')
 //创建光圈贴图
-const texture2=new THREE.TextureLoader().load('../../../../地球大屏可视化资源/标注光圈.png')
+const texture2=new THREE.TextureLoader().load('//地球大屏可视化资源/标注光圈.png')
 function createLabel(pos){
 const geometry=new THREE.PlaneGeometry(3,3)
 //把贴图赋值给材质

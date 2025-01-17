@@ -36,7 +36,7 @@ const loader=new THREE.FileLoader()
 loader.setResponseType('json')
 //创建一个数组存储陆地上的点
 const pointArr1 = []
-loader.load('../../../地球大屏可视化资源/world.json',(data)=>{
+loader.load('/../地球大屏可视化资源/world.json',(data)=>{
 const features=data.features
 features.forEach(e=>{
     const coordinates=e.geometry.coordinates

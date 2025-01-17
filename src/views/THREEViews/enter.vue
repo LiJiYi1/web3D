@@ -95,7 +95,7 @@ export default {
   height: 487px;
   color: chartreuse;
   background-color: red;
-  background-image: url('../../前端页面资源/image.png');
+  background-image: url('/前端页面资源/image.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -106,13 +106,13 @@ export default {
 color: red;
 width: 700px; 
   height: 487px;
-   background-image: url('../../前端页面资源/image1.jpg');
+   background-image: url('/前端页面资源/image1.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: aqua;
 }
 body{
-  background-image: url('../../前端页面资源/image.png');
+  background-image: url('/前端页面资源/image.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -131,7 +131,7 @@ body{
   width: 1370px;
   height: 180px;
   background-color: aqua;
-  background-image: url('../../前端页面资源/image2.jpg');
+  background-image: url('/前端页面资源/image2.jpg');
   background-size: contain;
 }
 </style>

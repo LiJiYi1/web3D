@@ -9,15 +9,15 @@ const loader=new GLTFLoader()
 const model=new THREE.Group()
 const BOX=new THREE.Box3()
 const textureCube = new THREE.CubeTextureLoader()
-    .setPath('../../../手机产品展示资源/cube/MilkyWay/')
+    .setPath('/../手机产品展示资源/cube/MilkyWay/')
     .load(['dark-s_px.jpg', 'dark-s_nx.jpg', 'dark-s_py.jpg', 'dark-s_ny.jpg', 'dark-s_pz.jpg', 'dark-s_nz.jpg']);
 const textureLoader=new THREE.TextureLoader()
-loader.load('../../../手机产品展示资源/model/手机 copy.glb',(gltf)=>{
-const baseTexture = textureLoader.load('../../../手机产品展示资源/model/basecolor.png')
-const metalnessTexture = textureLoader.load('../../../手机产品展示资源/model/metallic.png')
-const roughnessTexture = textureLoader.load('../../../手机产品展示资源/model/roughness.png')
-const normalTexture = textureLoader.load('../../../手机产品展示资源/model/normal.png')
-const alphaTexture = textureLoader.load('../../../手机产品展示资源/model/opacity.png')
+loader.load('/../手机产品展示资源/model/手机 copy.glb',(gltf)=>{
+const baseTexture = textureLoader.load('/../手机产品展示资源/model/basecolor.png')
+const metalnessTexture = textureLoader.load('/../手机产品展示资源/model/metallic.png')
+const roughnessTexture = textureLoader.load('/../手机产品展示资源/model/roughness.png')
+const normalTexture = textureLoader.load('/../手机产品展示资源/model/normal.png')
+const alphaTexture = textureLoader.load('/../手机产品展示资源/model/opacity.png')
 baseTexture.flipY=false
 metalnessTexture.flipY=false
 roughnessTexture.flipY=false
@@ -46,7 +46,7 @@ model.add(gltf.scene)
     const v = new THREE.Vector3()
     backCamera.getWorldPosition(v)
     //创建一个纹理
-    const map = textureLoader.load('../../../手机产品展示资源/光点.png')
+    const map = textureLoader.load('/../手机产品展示资源/光点.png')
     //创建一个精灵对象
     const sprite = new THREE.Sprite(new THREE.SpriteMaterial({
         map: map,
@@ -104,7 +104,7 @@ mesh.rotateX(-Math.PI/2)
 mesh.position.y-=75
 model.add(mesh)
 const fontLoader=new FontLoader()
-fontLoader.load('../../../手机产品展示资源/fonts/gentilis_bold.typeface.json',(font)=>{
+fontLoader.load('/../手机产品展示资源/fonts/gentilis_bold.typeface.json',(font)=>{
     // console.log(font);
     const shape= font.generateShapes('HUAWEI C4',10)
     const geometry=new THREE.ShapeGeometry(shape)

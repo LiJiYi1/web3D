@@ -57,7 +57,7 @@ scene.add(ambient);
 //纹理贴图加载器TextureLoader
 const texLoader = new THREE.TextureLoader();
 // .load()方法加载图像，返回一个纹理对象Texture
-const texture=texLoader.load('../../初级篇学习资源/earth.jpg');
+const texture=texLoader.load('/初级篇学习资源/earth.jpg');
 const material = new THREE.MeshLambertMaterial({
     // color: 0x00ffff,
     map:texture
@@ -76,7 +76,7 @@ const material1 =new THREE.MeshLambertMaterial()
 const mesh1=new THREE.Mesh(geometry1,material1)
 mesh1.position.x+=40;
 //创建贴图
-const texture2=new THREE.TextureLoader().load('../../初级篇学习资源/t010e231e27462fe93f.jpg')
+const texture2=new THREE.TextureLoader().load('/初级篇学习资源/t010e231e27462fe93f.jpg')
 material1.map=texture2
 //改UV坐标
  const uvs = new Float32Array([
@@ -100,7 +100,7 @@ const mesh2=new THREE.Mesh(geometry2,material2)
 mesh2.position.x-=50
 scene.add(mesh2)
 //创建贴图并赋值给材质
-material2.map=new THREE.TextureLoader().load('../../初级篇学习资源/指南针.png')
+material2.map=new THREE.TextureLoader().load('/初级篇学习资源/指南针.png')
 
 //创建一个矩形
 const geometry3=new THREE.PlaneGeometry(50,10)
@@ -115,10 +115,10 @@ mesh3.position.z-=50
 mesh3.rotateX(-Math.PI/2)
 scene.add(mesh3)
 //创建贴图并赋值给材质
-material2.map=new THREE.TextureLoader().load('../../初级篇学习资源/指南针.png')
+material2.map=new THREE.TextureLoader().load('/初级篇学习资源/指南针.png')
 
 //mesh3开始贴图
-const texture3=new THREE.TextureLoader().load('../../初级篇学习资源/纹理3.jpg')
+const texture3=new THREE.TextureLoader().load('/初级篇学习资源/纹理3.jpg')
 material3.map=texture3
 //纹理重复开启
 texture3.wrapS=THREE.RepeatWrapping
@@ -128,7 +128,7 @@ texture3.repeat.x=20
  gui.add(texture3.offset,'x',1,100)
 
 //创建贴图
-const Sky=new THREE.TextureLoader().load('../../初级篇学习资源/全景2048.jpg')
+const Sky=new THREE.TextureLoader().load('/初级篇学习资源/全景2048.jpg')
 const geometry12=new THREE.SphereGeometry(500,32,32)
 const material12=new THREE.MeshLambertMaterial({
 map:Sky,

@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { Lensflare,LensflareElement } from 'three/addons/objects/Lensflare.js';
 //获得光晕贴图
 const textureLoader = new THREE.TextureLoader();
-const textureFlare0 = textureLoader.load("../../../汽车产品展示资源/lensflare.jpg");
+const textureFlare0 = textureLoader.load("/../汽车产品展示资源/lensflare.jpg");
 //创建两个光晕对象
 const lensflare1 = new Lensflare();
 lensflare1.addElement(new LensflareElement(textureFlare0, 512, 0));

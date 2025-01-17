@@ -538,7 +538,7 @@ function AddCircleScanPostStage(viewer, maxRadius, scanColor, duration) {
             u_time: function () {
                 return ((new Date()).getTime() - _time)*0.001;
             },                
-            iChannel0: "../../../webGL资源/科比.jpg",
+            iChannel0: "/../webGL资源/科比.jpg",
         }
     });
     viewer.scene.postProcessStages.add(ScanPostStage);

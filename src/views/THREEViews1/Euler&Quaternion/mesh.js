@@ -6,7 +6,7 @@ import { camera } from './camera';
 const loader=new GLTFLoader()
 const model=new THREE.Group()
 //加载战斗机模型
-loader.load('../../../几何计算资源/飞机.glb',(gltf)=>{
+loader.load('/../几何计算资源/飞机.glb',(gltf)=>{
     const  fly=gltf.scene
     //调一下飞机位置
     fly.position.set(20,20,20)
@@ -51,7 +51,7 @@ loader.load('../../../几何计算资源/飞机.glb',(gltf)=>{
     
 })
 //加载无人机模型
-loader.load('../../../几何计算资源/无人机.glb',(gltf)=>{
+loader.load('/../几何计算资源/无人机.glb',(gltf)=>{
     //模型里面有动画属性可以这么玩，没有动画就算了。
     // const mixer=new THREE.AnimationMixer(gltf.scene)
     // const animate = mixer.clipAction(gltf.animations[0])

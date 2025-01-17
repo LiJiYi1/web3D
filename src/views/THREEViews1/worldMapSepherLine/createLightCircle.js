@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 function createLightCircle(R){
-    const map=new THREE.TextureLoader().load('../../../地球大屏可视化资源/地球光圈.png')
+    const map=new THREE.TextureLoader().load('/../地球大屏可视化资源/地球光圈.png')
     const material = new THREE.SpriteMaterial({ 
         color:0x00ff00,
         map: map })
