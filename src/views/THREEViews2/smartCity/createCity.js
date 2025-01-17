@@ -8,7 +8,7 @@ import { CSS2DObject } from 'three/addons/renderers/CSS2DRenderer'
 const cityGroup=new THREE.Group()
 const loader = new THREE.FileLoader()
 loader.setResponseType('json')
-const data = await loader.loadAsync('//智慧城市资源/上海/上海0.02.json')
+const data = await loader.loadAsync('/智慧城市资源/上海/上海0.02.json')
 const features=data.features;
 //共用一个材质
 const material = new THREE.MeshLambertMaterial({
@@ -72,7 +72,7 @@ cityGroup.add(city)
  cityGroup.add(edge)
  //加载东方明珠放入地图里。
 const loader1 = new GLTFLoader()
-const gltf=await loader1.loadAsync('//智慧城市资源/东方明珠.glb')
+const gltf=await loader1.loadAsync('/智慧城市资源/东方明珠.glb')
 const center=gltf.scene
 const mingzhu=center.getObjectByName('东方明珠')
 //创建标签标注东方明珠

@@ -9,11 +9,11 @@ import { onMounted,ref,onBeforeUnmount} from 'vue';
 import { renderer,camera,scene} from './index.js';
 const container=ref(null)
 onMounted(()=>{
-  //  //如果上下文丢失我们要把上下文恢复
-  // if(renderer.getContext().isContextLost()){
-  //   renderer.forceContextRestore() 
-  //   //  renderer.getContext().getExtension('WEBGL_lose_context').restoreContext();
-  // }
+//   //  /如果上下文丢失我们要把上下文恢复
+//   // if(renderer.getContext().isContextLost()){
+//   //   renderer.forceContextRestore() 
+//  / /   /  renderer.getContext().getExtension('WEBGL_lose_context').restoreContext();
+//   // }
 initThree()
 })
 function initThree(){
@@ -49,7 +49,7 @@ onBeforeUnmount(()=>{
         // 清理WebGL渲染器
         if (renderer&&renderer.domElement) {
             renderer.dispose();
-            //renderer.domElement.remove()
+           //renderer.domElement.remove()
             //renderer.forceContextLoss () 
             //如果存在上下文，把上下文顺便也清除掉
             //renderer.forceContextLoss () 

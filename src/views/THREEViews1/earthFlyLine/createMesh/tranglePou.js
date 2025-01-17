@@ -32,7 +32,6 @@ const points=[]
 //经纬度方向上的格子数
 const lonNum=Math.abs(lonSpace)/space
 const latNum=Math.abs(latSpace)/space
-
 //根据经纬度的差创建格子
 for(let i=0;i<lonNum+2;i++){
      const lon = lonMin + space*i

@@ -7,7 +7,7 @@
 <script setup>
 import * as Cesium from 'cesium'
 import { onMounted } from 'vue';
-import customCylinder from '/../CesiumBasicSource/Core/customShape/customCylinder.js'
+import customCylinder from '../../assets/Core/customShape/customCylinder'
 let viewer;
 onMounted(()=>{
 initCesium()

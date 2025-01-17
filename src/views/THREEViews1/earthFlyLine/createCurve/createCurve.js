@@ -70,7 +70,7 @@ for(let i=0;i<points2.length;i++){
     percent.push(per)
 }
 
-// const color=[]
+//const color=[]
 // const color1=new THREE.Color(1,0,1)
 // const color2=new THREE.Color(1,1,0)
 //根据圆弧的角度算起始的角度和结束的角度

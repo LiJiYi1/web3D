@@ -2,7 +2,7 @@
   <el-scrollbar height="86%">
   <div>
 
-  <el-card style="margin-right:2%;background-image:url('/前端页面资源/bgc/bgCMain13.gif');min-width:220px;max-width: 220px;float:right;margin-top:20px;opacity:0.8;background-color:#363434;width:30%">
+  <el-card style="margin-right:2%;background-image:url('/前端页面资源/bgc/bgcMain13.gif');min-width:220px;max-width: 220px;float:right;margin-top:20px;opacity:0.8;background-color:#363434;width:30%">
     <template #header><p>学习历程</p></template>
     <img
       src="/前端页面资源/image.png"

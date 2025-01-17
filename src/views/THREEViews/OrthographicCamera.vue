@@ -6,7 +6,7 @@
 
 </template>
 <script setup>
-import data from'/../初级篇学习资源/data'
+import data from'../../assets/data'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 //引入stats库
