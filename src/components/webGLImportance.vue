@@ -57,7 +57,7 @@
 
 
      <div style="width: 100%;height:100%;position:absolute;left:0px;top:0px;z-index:-1">
-    <canvas ref="webgl" id='webGL' width="1520" height="1470"></canvas>
+    <canvas ref="webgl" id='webGL' width="1520" height="888"></canvas>
   </div>
  </el-scrollbar>
 </template>

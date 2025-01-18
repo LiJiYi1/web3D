@@ -62,7 +62,7 @@ THREE.js的核心概念包括场景(Scene)、相机(Camera)、渲染器(Renderer
 </div>
 
  <div style="width: 100%;height:100%;position:absolute;left:0px;top:0px;z-index:-1">
-    <canvas ref="webgl" id='webGL' width="1520" height="1470"></canvas>
+    <canvas ref="webgl" id='webGL' width="1520" height="888"></canvas>
   </div>
   </el-scrollbar>
 

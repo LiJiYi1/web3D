@@ -322,7 +322,7 @@
    <div>
       <h1 id="navH1">下滑鼠标中键可查看所有案例~~~</h1>
     <div id='canvasAlert' style="opacity:0.6;z-index:10086;pointer-events:none">
-<el-image style="width: 60.0px; height: 60.0px;position:fixed;left:0px;top:0px" src="../前端页面资源/钢铁机器人.png" fit="fill" />
+<el-image style="width: 60.0px; height: 60.0px;position:fixed;left:0px;top:0px" src="/前端页面资源/钢铁机器人.png" fit="fill" />
   </div>
   <canvas ref="webgl" id='EasterEgg' width="1520" height="1470"></canvas>
    </div>
@@ -330,14 +330,14 @@
    
 <div id="alertH1"> 
     <el-image style="margin-bottom:-30px;display:inline-block;
-width: 88px;height:88px;opacity:0.6;z-index:-10;" src="../前端页面资源/loading.gif" fit="fill" />
+width: 88px;height:88px;opacity:0.6;z-index:-10;" src="/前端页面资源/loading.gif" fit="fill" />
     <h1 style="display:inline-block;padding-bottom:20px;line-height: 1.8em;"  >正在玩命加载中。。。</h1>
 </div>
 
   
   <!-- 网站icon -->
-  <div class="webgl"><img src="../前端页面资源/webgl.png" alt=""></div>
-  <div class="webgis"><img src="../前端页面资源/webgis.png" alt=""></div>
+  <div class="webgl"><img src="/前端页面资源/webgl.png" alt=""></div>
+  <div class="webgis"><img src="/前端页面资源/webgis.png" alt=""></div>
   <!-- 1px细线 -->
    <div class="hr"></div>
   <!-- <hr/> -->

@@ -92,7 +92,7 @@ Web框架: 了解如何使用Vue.js、React等现代Web框架与Cesium.js集成,
     </div>
     
   <div style="width: 100%;height:100%;position:absolute;left:0px;top:0px;z-index:-1">
-    <canvas ref="webgl" id='webGL' width="1520" height="1470"></canvas>
+    <canvas ref="webgl" id='webGL' width="1520" height="888"></canvas>
   </div>
   </el-scrollbar>
 </template>
