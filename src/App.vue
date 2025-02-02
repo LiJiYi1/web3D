@@ -4,7 +4,7 @@
   <el-alert title="注意:此项目更倾向于学习web3D的个人学习案例总结,在前端的设计方面可能并不是很完美。
   在canvas画布销毁方面:由于实际开发中并不会一次创建很多个canvas画布所以很少有人遇到并解决这个问题,
   本人也一直没有头绪,故直接采用路由守卫配合刷新页面的方法利用浏览器的清理机制来清除canvas画布。
-  Cesium部分没有采用本地地图图层,是从网络请求的图层,请在连网的环境下打开。" center   effect="dark" class="alert"/>
+  Cesium部分没有采用本地地图图层,是从网络请求的图层,请在连网的环境下打开。另:Cesium部分运用的是开发环境,打包后Cesium部分无法显示。" center   effect="dark" class="alert"/>
   <!-- 顶部导航栏 -->
   <el-menu
     router
